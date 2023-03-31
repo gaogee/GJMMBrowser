@@ -1,8 +1,8 @@
 {
   "name": "GJMMBrowser",
   "version": "0.1.0",
-  "summary": "A short description of GJMMBrowser.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "multimedia browser.",
+  "description": "TODO: Image, video and other resources multimedia browser.",
   "homepage": "https://github.com/gaogee/GJMMBrowser",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "GJMMBrowser/Classes/**/*.{h,m}",
   "resource_bundles": {

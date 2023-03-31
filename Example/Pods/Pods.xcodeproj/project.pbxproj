@@ -104,7 +104,7 @@
 		F4E1574D61C8FBC944C19A9FEC77DBED /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */; };
 		F81486EF494E232621A8DA34C29EA44E /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E887F31345E514A18498AF2B8836177 /* UIImage+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9071F9281B51B650D3BF6D567AB7113 /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B4B5F94F077658A3E991C71501D9FA /* _YYWebImageSetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FA4CFE39074C3AF8617F322312F72E75 /* GJMMBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser.bundle */; };
+		FA4CFE39074C3AF8617F322312F72E75 /* GJMMBrowser-GJMMBrowser in Resources */ = {isa = PBXBuildFile; fileRef = EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser-GJMMBrowser */; };
 		FB0C40A1FB48F97AE20AE79B6D4EFD44 /* GJMultiMediaBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1EEE5F77BDCD83F764C927099EAC /* GJMultiMediaBrowserCollectionViewCell.m */; };
 		FCA36E628B3988C5DB8E970409DD3373 /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 811AC55C420A84F9A585741586D5EC8C /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE9CA31F01E9BFDCB1EEB68035D85BCE /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FCD1CBB72B1FEF192BDA1E5BDFE9B /* CALayer+YYWebImage.m */; };
@@ -200,7 +200,7 @@
 		201401190824A78452848C8C663B7CDF /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YYWebImage.h"; path = "YYWebImage/Categories/UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
 		2411EB0E03BD72BDA204B6E6BEDE19A6 /* GJMultiMediaBrowserHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserHelper.h; sourceTree = "<group>"; };
 		25EBA6A6DDB1FF49541FB0A8216F1534 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
-		29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GJMMBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GJMMBrowser; path = GJMMBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A87C51BA4DFB93E04AAAE18C5415270 /* YYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImage.m; path = YYImage/YYImage.m; sourceTree = "<group>"; };
 		2E887F31345E514A18498AF2B8836177 /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYWebImage.h"; path = "YYWebImage/Categories/UIImage+YYWebImage.h"; sourceTree = "<group>"; };
 		2EF6223336CE4A3713A296BC66D3BF48 /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYWebImage/YYWebImageManager.h; sourceTree = "<group>"; };
@@ -214,16 +214,16 @@
 		4179F3AAC4303DF8DEEF7B4EF0998F22 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
 		424E3EC9F99CD4D4A12EE78669251414 /* GJMultiMediaBrowserCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserCollectionViewCell.h; sourceTree = "<group>"; };
 		430205C3EE01E1850845CC34BB4E6877 /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
-		4407BD2204026DC672719516B97EBE01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4407BD2204026DC672719516B97EBE01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		460CBC237E41400D48E14ED0CAA3B427 /* YYCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.release.xcconfig; sourceTree = "<group>"; };
 		47C1EE6F4FD3F8440784A114FE05DBFF /* YYImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYImage.debug.xcconfig; sourceTree = "<group>"; };
 		48ACF38225AF5129416A1F090F6D3286 /* YYCache */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B63EB8B88FFC8E73F7D31CFEBB08B69 /* GJBrowserDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserDataConverter.m; sourceTree = "<group>"; };
-		4DD47B86F68AA81490275B2499D43784 /* GJMMBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GJMMBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DD47B86F68AA81490275B2499D43784 /* GJMMBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJMMBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F15FAC18C3D9A7FFF8B3235317ED70B /* Pods-GJMMBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJMMBrowser_Example-dummy.m"; sourceTree = "<group>"; };
 		4FC1978206616CE319648B302B05AA8A /* YYWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYWebImage; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BAB4436F94D90683D6DEE806AE5D60 /* GJBrowserDismissedAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowserDismissedAnimator.h; sourceTree = "<group>"; };
-		53D25528444E4391556F4AB83AA4517B /* Pods_GJMMBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJMMBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D25528444E4391556F4AB83AA4517B /* Pods-GJMMBrowser_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GJMMBrowser_Example"; path = Pods_GJMMBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F6AACA2669F30E8A675630F172A610 /* YYImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCache.m; path = YYWebImage/YYImageCache.m; sourceTree = "<group>"; };
 		55E86DC5A47D3F7A6391F2CA411E99DC /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYImage/YYFrameImage.h; sourceTree = "<group>"; };
 		56CF436768999738AD68ADE5052805B5 /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+YYWebImage.h"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 		5EE9FBEF61B052A3AD71FE174E60BB4D /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
 		61F51D3120652D870A9DCC95432007DE /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
 		6268787B2112936AAB74C9E76B5B51EA /* YYImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYImage-Info.plist"; sourceTree = "<group>"; };
-		62DAC7E60E8498EF62EB60C644ECB6B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		62DAC7E60E8498EF62EB60C644ECB6B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		657A068BCFF96DA8B1D6C2CDB5E760F6 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		660F0F74CE74FACB1D998E35CECCBD9C /* Pods-GJMMBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6739A46323E471F4CB5059D83C39A808 /* GJMultiMediaBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserViewController.m; sourceTree = "<group>"; };
@@ -265,7 +265,7 @@
 		97FB62870A5D1FB04B52EC470C76B0CA /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
 		99D02AF6CE6C8A8122E7FA0B7471B8AE /* GJBrowserTransitionDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserTransitionDriver.m; sourceTree = "<group>"; };
 		9C42A4587F06B68482275F35E0617AA1 /* Pods-GJMMBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYWebImage/YYWebImageOperation.m; sourceTree = "<group>"; };
 		9E1FAC8A969C94E5A627ADB1CF57AAE1 /* GJMultiMediaBrowserNavBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserNavBarView.h; sourceTree = "<group>"; };
 		9EE4CA299B1517667BA55DBD6FA60D13 /* GJMultiMediaBrowserNavBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserNavBarView.m; sourceTree = "<group>"; };
@@ -301,7 +301,7 @@
 		E428B28E9807053736DCC4019780ECC3 /* YYCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.debug.xcconfig; sourceTree = "<group>"; };
 		EA9BE25BCE5FBEDEE893E3B564476943 /* YYImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-umbrella.h"; sourceTree = "<group>"; };
 		EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
-		EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJMMBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser-GJMMBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GJMMBrowser-GJMMBrowser"; path = GJMMBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1A243367D7E565663FD520EAD49D86 /* _YYWebImageSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _YYWebImageSetter.m; path = YYWebImage/Categories/_YYWebImageSetter.m; sourceTree = "<group>"; };
 		F032DAF195902490E1868040EC22D4C2 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYImage/YYImageCoder.m; sourceTree = "<group>"; };
 		F7930CE2E060D0B79803D3A564B8C936 /* Pods-GJMMBrowser_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GJMMBrowser_Tests"; path = Pods_GJMMBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -464,6 +464,7 @@
 				4BAF4514C1225F837F25C62B186F0121 /* Core */,
 				2AE8281E3715912052B6B965BEDE210B /* Support Files */,
 			);
+			name = YYImage;
 			path = YYImage;
 			sourceTree = "<group>";
 		};
@@ -520,6 +521,7 @@
 				97FB62870A5D1FB04B52EC470C76B0CA /* YYMemoryCache.m */,
 				4E1A639554D4CE9D815B9F7510DFD1B6 /* Support Files */,
 			);
+			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -616,6 +618,7 @@
 				9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */,
 				AE45B550D39DFF6531D98C65499584FF /* Support Files */,
 			);
+			name = YYWebImage;
 			path = YYWebImage;
 			sourceTree = "<group>";
 		};
@@ -697,9 +700,9 @@
 		FEA7BD80DAD6B4A00A6206A480B99C43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser.framework */,
-				EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser.bundle */,
-				53D25528444E4391556F4AB83AA4517B /* Pods_GJMMBrowser_Example.framework */,
+				29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser */,
+				EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser-GJMMBrowser */,
+				53D25528444E4391556F4AB83AA4517B /* Pods-GJMMBrowser_Example */,
 				F7930CE2E060D0B79803D3A564B8C936 /* Pods-GJMMBrowser_Tests */,
 				48ACF38225AF5129416A1F090F6D3286 /* YYCache */,
 				0C6F4829D47D1826F47CDC4264F9F6A8 /* YYImage */,
@@ -815,7 +818,7 @@
 			);
 			name = "Pods-GJMMBrowser_Example";
 			productName = Pods_GJMMBrowser_Example;
-			productReference = 53D25528444E4391556F4AB83AA4517B /* Pods_GJMMBrowser_Example.framework */;
+			productReference = 53D25528444E4391556F4AB83AA4517B /* Pods-GJMMBrowser_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		488E8C830C5A5694EE916251B9ADAADA /* YYWebImage */ = {
@@ -871,7 +874,7 @@
 			);
 			name = "GJMMBrowser-GJMMBrowser";
 			productName = GJMMBrowser;
-			productReference = EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser.bundle */;
+			productReference = EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser-GJMMBrowser */;
 			productType = "com.apple.product-type.bundle";
 		};
 		822E44240F2922DAB12018A6B649BD19 /* YYImage */ = {
@@ -909,7 +912,7 @@
 			);
 			name = GJMMBrowser;
 			productName = GJMMBrowser;
-			productReference = 29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser.framework */;
+			productReference = 29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser */;
 			productType = "com.apple.product-type.framework";
 		};
 		CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */ = {
@@ -975,7 +978,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4CFE39074C3AF8617F322312F72E75 /* GJMMBrowser.bundle in Resources */,
+				FA4CFE39074C3AF8617F322312F72E75 /* GJMMBrowser-GJMMBrowser in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1178,7 +1181,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYWebImage/YYWebImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYWebImage/YYWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYWebImage/YYWebImage.modulemap";
 				PRODUCT_MODULE_NAME = YYWebImage;
@@ -1210,7 +1213,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GJMMBrowser_Tests/Pods-GJMMBrowser_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GJMMBrowser_Tests/Pods-GJMMBrowser_Tests.modulemap";
@@ -1224,54 +1227,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		26A0229AA9AED444C239738608E93789 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GJMMBrowser/GJMMBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser.modulemap";
-				PRODUCT_MODULE_NAME = GJMMBrowser;
-				PRODUCT_NAME = GJMMBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		26B2C073687380AD208833D4C63A68BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
-				IBSC_MODULE = GJMMBrowser;
-				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = GJMMBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1291,7 +1246,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GJMMBrowser_Example/Pods-GJMMBrowser_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GJMMBrowser_Example/Pods-GJMMBrowser_Example.modulemap";
@@ -1324,7 +1279,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYImage/YYImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYImage/YYImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYImage/YYImage.modulemap";
 				PRODUCT_MODULE_NAME = YYImage;
@@ -1355,7 +1310,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
 				PRODUCT_MODULE_NAME = YYCache;
@@ -1387,7 +1342,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GJMMBrowser_Tests/Pods-GJMMBrowser_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GJMMBrowser_Tests/Pods-GJMMBrowser_Tests.modulemap";
@@ -1405,35 +1360,37 @@
 			};
 			name = Release;
 		};
-		6A8493F52AFA8ED88F29B48618A12747 /* Release */ = {
+		6709BFED0AEE0748F0A299FF84DD145C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */;
+			baseConfigurationReference = 8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GJMMBrowser/GJMMBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser.modulemap";
-				PRODUCT_MODULE_NAME = GJMMBrowser;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
+				IBSC_MODULE = GJMMBrowser;
+				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = GJMMBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6926C57452A4A5596FD6A25B0385CB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
+				IBSC_MODULE = GJMMBrowser;
+				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = GJMMBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1492,28 +1449,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9050FFAB99D9E2CA57D0E45E5C3A92EC /* Release */ = {
+		942DD0D14CAC78B91E51763FEF86934A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */;
+			baseConfigurationReference = 8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
-				IBSC_MODULE = GJMMBrowser;
-				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GJMMBrowser/GJMMBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser.modulemap";
+				PRODUCT_MODULE_NAME = GJMMBrowser;
 				PRODUCT_NAME = GJMMBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		976107513994C604D5B4312FB39A634E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1531,7 +1503,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GJMMBrowser_Example/Pods-GJMMBrowser_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GJMMBrowser_Example/Pods-GJMMBrowser_Example.modulemap";
@@ -1563,7 +1535,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYImage/YYImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYImage/YYImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYImage/YYImage.modulemap";
 				PRODUCT_MODULE_NAME = YYImage;
@@ -1593,7 +1565,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
 				PRODUCT_MODULE_NAME = YYCache;
@@ -1689,7 +1661,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYWebImage/YYWebImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYWebImage/YYWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYWebImage/YYWebImage.modulemap";
 				PRODUCT_MODULE_NAME = YYWebImage;
@@ -1703,6 +1675,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		FAD44BDF532F59DAB366097655D6E9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GJMMBrowser/GJMMBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GJMMBrowser/GJMMBrowser.modulemap";
+				PRODUCT_MODULE_NAME = GJMMBrowser;
+				PRODUCT_NAME = GJMMBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1764,8 +1768,8 @@
 		D3B799A8E09AFF422FDB8B483E1AE9D3 /* Build configuration list for PBXNativeTarget "GJMMBrowser-GJMMBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B2C073687380AD208833D4C63A68BF /* Debug */,
-				9050FFAB99D9E2CA57D0E45E5C3A92EC /* Release */,
+				6709BFED0AEE0748F0A299FF84DD145C /* Debug */,
+				6926C57452A4A5596FD6A25B0385CB4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1773,8 +1777,8 @@
 		F58BC1C4A8A403FF0C4633DEF0FB78AD /* Build configuration list for PBXNativeTarget "GJMMBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26A0229AA9AED444C239738608E93789 /* Debug */,
-				6A8493F52AFA8ED88F29B48618A12747 /* Release */,
+				942DD0D14CAC78B91E51763FEF86934A /* Debug */,
+				FAD44BDF532F59DAB366097655D6E9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
