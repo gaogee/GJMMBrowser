@@ -202,7 +202,7 @@
 		1E223A85F48FAE9837AC0673D570A00C /* YYImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYImage.modulemap; sourceTree = "<group>"; };
 		1E39AABEF9E9071A2D6C5D8C767F3B8C /* YYWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageManager.m; path = YYWebImage/YYWebImageManager.m; sourceTree = "<group>"; };
 		201401190824A78452848C8C663B7CDF /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YYWebImage.h"; path = "YYWebImage/Categories/UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
-		237E8DFCCBEA0B2640DF9CF7238F3280 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		237E8DFCCBEA0B2640DF9CF7238F3280 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		25EBA6A6DDB1FF49541FB0A8216F1534 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 		26217039447E569040C6488803FE09DD /* GJMMBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJMMBrowser-dummy.m"; sourceTree = "<group>"; };
 		29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GJMMBrowser; path = GJMMBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,13 +240,13 @@
 		657A068BCFF96DA8B1D6C2CDB5E760F6 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		660F0F74CE74FACB1D998E35CECCBD9C /* Pods-GJMMBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		67CE0483753230A5C375F0033FE9B8C9 /* Pods-GJMMBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B55A758C29AF29B0ECC084A72D63470 /* GJMMBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJMMBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B55A758C29AF29B0ECC084A72D63470 /* GJMMBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GJMMBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6BF2C1EF41EAFF86CFEFCC1C3E58D82B /* YYWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYWebImage-Info.plist"; sourceTree = "<group>"; };
 		6BF3665B805F2F736830588C428BEC6A /* YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImage.h; path = YYWebImage/YYWebImage.h; sourceTree = "<group>"; };
 		6CB320C0B95DFECF01DC1410FCDC8A04 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
 		6EDB9ED8EF090C6FDA4BBBEE4B5AC812 /* GJMMBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMMBrowser-prefix.pch"; sourceTree = "<group>"; };
 		737765BF96C9B7F4A7180978C293D76E /* GJMultiMediaResoucre.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaResoucre.h; path = GJMMBrowser/Classes/GJMultiMediaResoucre.h; sourceTree = "<group>"; };
-		76BF92AD9E1F5B2B8DE79F10F793DE3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76BF92AD9E1F5B2B8DE79F10F793DE3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		77DBCF831F221F97430962C7C1D098A7 /* Pods-GJMMBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJMMBrowser_Example.modulemap"; sourceTree = "<group>"; };
 		7BF4C869FFE05F516F98D432697498ED /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+YYWebImage.m"; path = "YYWebImage/Categories/UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
 		7CBA5CAE4C200D8A8B428E018DF05860 /* Pods-GJMMBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJMMBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -268,7 +268,7 @@
 		9998C517E6C1E0354B2C5BDECC6DA7A6 /* GJBrowserTransitionDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowserTransitionDriver.h; path = GJMMBrowser/Classes/GJBrowserTransitionDriver.h; sourceTree = "<group>"; };
 		9C06865E24EEC42BE702C0236EBE57D5 /* GJMultiMediaBrowserNavBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaBrowserNavBarView.m; path = GJMMBrowser/Classes/GJMultiMediaBrowserNavBarView.m; sourceTree = "<group>"; };
 		9C42A4587F06B68482275F35E0617AA1 /* Pods-GJMMBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYWebImage/YYWebImageOperation.m; sourceTree = "<group>"; };
 		9DDD54F5A3E91954B20AAD681E8949D5 /* GJMultiMediaResoucre.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaResoucre.m; path = GJMMBrowser/Classes/GJMultiMediaResoucre.m; sourceTree = "<group>"; };
 		A2D9C8BD087A9C008A79647EEE98272D /* gj_transition_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gj_transition_back.png; path = GJMMBrowser/Assets/gj_transition_back.png; sourceTree = "<group>"; };
@@ -436,7 +436,6 @@
 				4BAF4514C1225F837F25C62B186F0121 /* Core */,
 				2AE8281E3715912052B6B965BEDE210B /* Support Files */,
 			);
-			name = YYImage;
 			path = YYImage;
 			sourceTree = "<group>";
 		};
@@ -493,6 +492,10 @@
 			children = (
 				A2D9C8BD087A9C008A79647EEE98272D /* gj_transition_back.png */,
 				49E103A4B3731E07CCEE44B5D10C9929 /* gj_transition_default_graph.png */,
+				0FA15B36B82D0F3D3AA35C7F04327232 /* GJMMBrowser.h */,
+				D9D927A1264BCB4A8EE5C22262A1E095 /* GJMMBrowser.m */,
+				0744D487B886E0D35AC41805BC494881 /* GJMultiMediaBrowserViewController.h */,
+				C7C6F7EEF7AE2906F56DB1963319E862 /* GJMultiMediaBrowserViewController.m */,
 				C3E4CB5C98DE44352338DDBDE62CDD29 /* GJBrowserDataConverter.h */,
 				EC5BB876D70C24727AD14973BBEA0E90 /* GJBrowserDataConverter.m */,
 				1C73792A404C6D137B7955CE7FF3CCD5 /* GJBrowserDismissedAnimator.h */,
@@ -505,8 +508,6 @@
 				12E14BAEB2259E58E1E53E95C744BD77 /* GJBrowserTranslator.m */,
 				2C0A94EE07C914B8742C9EE1C2DE59FC /* GJBrowseTransitionParameter.h */,
 				40E0D55DF258F6F28A54BC8DAFD25241 /* GJBrowseTransitionParameter.m */,
-				0FA15B36B82D0F3D3AA35C7F04327232 /* GJMMBrowser.h */,
-				D9D927A1264BCB4A8EE5C22262A1E095 /* GJMMBrowser.m */,
 				8C609484E2B649C0A334B928AE348150 /* GJMultiMediaBrowserCollectionViewCell.h */,
 				E67846246F5608A5C58EC2F7366D28A2 /* GJMultiMediaBrowserCollectionViewCell.m */,
 				2A64ED33022E47302013B0FB899E0E57 /* GJMultiMediaBrowserDelegate.h */,
@@ -514,8 +515,6 @@
 				50A650EAEE285220D5D47D4DB1DE15AE /* GJMultiMediaBrowserHelper.m */,
 				AF9455403A6971B3019D65232CD6B098 /* GJMultiMediaBrowserNavBarView.h */,
 				9C06865E24EEC42BE702C0236EBE57D5 /* GJMultiMediaBrowserNavBarView.m */,
-				0744D487B886E0D35AC41805BC494881 /* GJMultiMediaBrowserViewController.h */,
-				C7C6F7EEF7AE2906F56DB1963319E862 /* GJMultiMediaBrowserViewController.m */,
 				4C8697980906A901D9108FDD041DC704 /* GJMultiMediaBrowserViewControllerDelegate.h */,
 				15EDCF706F5D9C59D92788A783F18025 /* GJMultiMediaBrowserZoomScrollView.h */,
 				0A701347295FEA85CA27CD0CD9735C94 /* GJMultiMediaBrowserZoomScrollView.m */,
@@ -541,7 +540,6 @@
 				97FB62870A5D1FB04B52EC470C76B0CA /* YYMemoryCache.m */,
 				4E1A639554D4CE9D815B9F7510DFD1B6 /* Support Files */,
 			);
-			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -630,7 +628,6 @@
 				9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */,
 				AE45B550D39DFF6531D98C65499584FF /* Support Files */,
 			);
-			name = YYWebImage;
 			path = YYWebImage;
 			sourceTree = "<group>";
 		};
@@ -1421,8 +1418,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

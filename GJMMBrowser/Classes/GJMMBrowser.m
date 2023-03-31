@@ -14,29 +14,24 @@
 @property (nonatomic, strong) GJMultiMediaBrowserViewController *browserVc;
 @end
 @implementation GJMMBrowser
--(instancetype)init{
-    self = [super init];
-    if (self){
-        GJMultiMediaBrowserViewController *browsVc = [[GJMultiMediaBrowserViewController alloc] init];
-        self.browserVc = browsVc;
-    }
-    return self;
-}
+
 -(void)openBrowser{
     __weak typeof(self) weakSelf = self;
     [GJBrowserDataConverter makePresentedDataWithResources:self.resources elements:self.elements index:self.currentPage result:^(GJBrowseTransitionParameter * _Nonnull transitionParameter, GJBrowserTranslator * _Nonnull translator, NSArray<GJMultiMediaResoucre *> * _Nonnull models) {
-        weakSelf.browserVc.resoucreModels = models;
-        weakSelf.browserVc.translator = translator;
-        weakSelf.browserVc.transitioningDelegate = translator;
+        GJMultiMediaBrowserViewController *browserVc = [[GJMultiMediaBrowserViewController alloc] init];
+        browserVc.resoucreModels = models;
+        browserVc.translator = translator;
+        browserVc.transitioningDelegate = translator;
+        browserVc.delegate = self;
+        browserVc.placeholderImage = self.placeholderImage;
+        browserVc.isShowBackbutton = self.isShowBackbutton;
+        browserVc.isShowPageIndicator = self.isShowPageIndicator;
+        browserVc.elements = self.elements;
+        browserVc.footerContentView = self.footerContentView;
+        browserVc.modalPresentationStyle = UIModalPresentationFullScreen;
+        self.browserVc = browserVc;
+        [[GJMultiMediaBrowserHelper getCurrentViewController] presentViewController:browserVc animated:YES completion:nil];
     }];
-    self.browserVc.delegate = self;
-    self.browserVc.placeholderImage = self.placeholderImage;
-    self.browserVc.isShowBackbutton = self.isShowBackbutton;
-    self.browserVc.isShowPageIndicator = self.isShowPageIndicator;
-    self.browserVc.footerContentView = self.footerContentView;
-    self.browserVc.elements = self.elements;
-    self.browserVc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [[GJMultiMediaBrowserHelper getCurrentViewController] presentViewController:self.browserVc animated:YES completion:nil];
 }
 
 -(void)closeBrowser{

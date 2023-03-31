@@ -51,6 +51,8 @@
         footerContentView.transform = CGAffineTransformIdentity;
     } completion:^(BOOL finished) {
         toView.hidden = NO;
+        [toViewController.view addSubview:navBarView];
+        [toViewController.view addSubview:footerContentView];
         [bgView removeFromSuperview];
         [transitionImgView removeFromSuperview];
         
