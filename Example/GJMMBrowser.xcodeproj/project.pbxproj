@@ -46,8 +46,6 @@
 		E8D5E06329D6F07B0088EE87 /* GJNetworkPicturesButtonArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E04C29D6F07A0088EE87 /* GJNetworkPicturesButtonArrayController.m */; };
 		E8D5E06429D6F07B0088EE87 /* GJNetworkPicturesScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E04E29D6F07B0088EE87 /* GJNetworkPicturesScrollViewController.m */; };
 		E8D5E06829D6F5F80088EE87 /* GJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E06629D6F5F70088EE87 /* GJViewController.m */; };
-		E8D5E07429D6F6530088EE87 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E8D5E06A29D6F6530088EE87 /* .gitkeep */; };
-		E8D5E08129D6F9060088EE87 /* MMBrowser.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D5E08029D6F9060088EE87 /* MMBrowser.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,34 +86,6 @@
 		DA26153454962A2B87A1EDD2 /* Pods-GJMMBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJMMBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GJMMBrowser_Tests/Pods-GJMMBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A72AA4A8BFEDEF9FCF1D07 /* Pods-GJMMBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJMMBrowser_Tests.release.xcconfig"; path = "Target Support Files/Pods-GJMMBrowser_Tests/Pods-GJMMBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E7C05B1251E949F07069237D /* Pods-GJMMBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJMMBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-GJMMBrowser_Example/Pods-GJMMBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E8D5E00929D6F02E0088EE87 /* GJMultiMediaBrowserNavBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserNavBarView.m; sourceTree = "<group>"; };
-		E8D5E00A29D6F02E0088EE87 /* GJMultiMediaBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserViewController.m; sourceTree = "<group>"; };
-		E8D5E00B29D6F02E0088EE87 /* GJMultiMediaBrowserCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserCollectionViewCell.h; sourceTree = "<group>"; };
-		E8D5E00C29D6F02E0088EE87 /* GJMultiMediaBrowserZoomScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserZoomScrollView.m; sourceTree = "<group>"; };
-		E8D5E00D29D6F02E0088EE87 /* GJMultiMediaBrowserCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserCollectionViewCell.m; sourceTree = "<group>"; };
-		E8D5E00E29D6F02E0088EE87 /* GJMultiMediaBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserViewController.h; sourceTree = "<group>"; };
-		E8D5E00F29D6F02E0088EE87 /* GJMultiMediaBrowserNavBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserNavBarView.h; sourceTree = "<group>"; };
-		E8D5E01029D6F02E0088EE87 /* GJMultiMediaBrowserZoomScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserZoomScrollView.h; sourceTree = "<group>"; };
-		E8D5E01229D6F02E0088EE87 /* GJBrowserTransitionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJBrowserTransitionDriver.h; sourceTree = "<group>"; };
-		E8D5E01329D6F02E0088EE87 /* GJBrowserTranslator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJBrowserTranslator.h; sourceTree = "<group>"; };
-		E8D5E01429D6F02E0088EE87 /* GJBrowserPresentedAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJBrowserPresentedAnimator.m; sourceTree = "<group>"; };
-		E8D5E01529D6F02E0088EE87 /* GJBrowserDismissedAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJBrowserDismissedAnimator.m; sourceTree = "<group>"; };
-		E8D5E01629D6F02E0088EE87 /* GJMultiMediaResoucre.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaResoucre.m; sourceTree = "<group>"; };
-		E8D5E01729D6F02E0088EE87 /* GJBrowseTransitionParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJBrowseTransitionParameter.h; sourceTree = "<group>"; };
-		E8D5E01829D6F02E0088EE87 /* GJBrowserDataConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJBrowserDataConverter.m; sourceTree = "<group>"; };
-		E8D5E01929D6F02E0088EE87 /* GJBrowserTransitionDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJBrowserTransitionDriver.m; sourceTree = "<group>"; };
-		E8D5E01A29D6F02E0088EE87 /* GJBrowserPresentedAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJBrowserPresentedAnimator.h; sourceTree = "<group>"; };
-		E8D5E01B29D6F02E0088EE87 /* GJBrowserTranslator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJBrowserTranslator.m; sourceTree = "<group>"; };
-		E8D5E01C29D6F02E0088EE87 /* GJBrowserDataConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJBrowserDataConverter.h; sourceTree = "<group>"; };
-		E8D5E01D29D6F02E0088EE87 /* GJBrowseTransitionParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJBrowseTransitionParameter.m; sourceTree = "<group>"; };
-		E8D5E01E29D6F02E0088EE87 /* GJMultiMediaResoucre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaResoucre.h; sourceTree = "<group>"; };
-		E8D5E01F29D6F02E0088EE87 /* GJBrowserDismissedAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJBrowserDismissedAnimator.h; sourceTree = "<group>"; };
-		E8D5E02029D6F02F0088EE87 /* GJMMBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GJMMBrowser.m; path = ../GJMMBrowser/Classes/GJMMBrowser.m; sourceTree = "<group>"; };
-		E8D5E02229D6F02F0088EE87 /* GJMultiMediaBrowserHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserHelper.h; sourceTree = "<group>"; };
-		E8D5E02329D6F02F0088EE87 /* GJMultiMediaBrowserHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserHelper.m; sourceTree = "<group>"; };
-		E8D5E02529D6F02F0088EE87 /* GJMultiMediaBrowserViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserViewControllerDelegate.h; sourceTree = "<group>"; };
-		E8D5E02629D6F02F0088EE87 /* GJMultiMediaBrowserDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserDelegate.h; sourceTree = "<group>"; };
-		E8D5E02729D6F02F0088EE87 /* GJMMBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GJMMBrowser.h; path = ../GJMMBrowser/Classes/GJMMBrowser.h; sourceTree = "<group>"; };
 		E8D5E02829D6F0770088EE87 /* GJLocalPicturesImageViewArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJLocalPicturesImageViewArrayController.m; sourceTree = "<group>"; };
 		E8D5E02929D6F0770088EE87 /* GJCustomBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCustomBrowserViewController.m; sourceTree = "<group>"; };
 		E8D5E02A29D6F0770088EE87 /* GJNetworkPicturesImageViewArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNetworkPicturesImageViewArrayController.m; sourceTree = "<group>"; };
@@ -157,8 +127,6 @@
 		E8D5E06529D6F0C40088EE87 /* UIImage+GJGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GJGIF.h"; sourceTree = "<group>"; };
 		E8D5E06629D6F5F70088EE87 /* GJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJViewController.m; sourceTree = "<group>"; };
 		E8D5E06729D6F5F70088EE87 /* GJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJViewController.h; sourceTree = "<group>"; };
-		E8D5E06A29D6F6530088EE87 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		E8D5E08029D6F9060088EE87 /* MMBrowser.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MMBrowser.xcassets; sourceTree = "<group>"; };
 		F6907BF8DCAB67F516AC3962 /* Pods_GJMMBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJMMBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -321,73 +289,8 @@
 				4371ADD82C5436DF9CFAE25F /* GJMMBrowser.podspec */,
 				456347BCE7AC72A08E7056A5 /* README.md */,
 				508FD7829607AE6439127CC8 /* LICENSE */,
-				E8D5E02729D6F02F0088EE87 /* GJMMBrowser.h */,
-				E8D5E02029D6F02F0088EE87 /* GJMMBrowser.m */,
-				E8D5E00829D6F02E0088EE87 /* View */,
-				E8D5E01129D6F02E0088EE87 /* Translator */,
-				E8D5E02129D6F02F0088EE87 /* Helper */,
-				E8D5E02429D6F02F0088EE87 /* Protocol */,
-				E8D5E06929D6F6530088EE87 /* Assets */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		E8D5E00829D6F02E0088EE87 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E8D5E00E29D6F02E0088EE87 /* GJMultiMediaBrowserViewController.h */,
-				E8D5E00A29D6F02E0088EE87 /* GJMultiMediaBrowserViewController.m */,
-				E8D5E00B29D6F02E0088EE87 /* GJMultiMediaBrowserCollectionViewCell.h */,
-				E8D5E00D29D6F02E0088EE87 /* GJMultiMediaBrowserCollectionViewCell.m */,
-				E8D5E00F29D6F02E0088EE87 /* GJMultiMediaBrowserNavBarView.h */,
-				E8D5E00929D6F02E0088EE87 /* GJMultiMediaBrowserNavBarView.m */,
-				E8D5E01029D6F02E0088EE87 /* GJMultiMediaBrowserZoomScrollView.h */,
-				E8D5E00C29D6F02E0088EE87 /* GJMultiMediaBrowserZoomScrollView.m */,
-			);
-			name = View;
-			path = ../GJMMBrowser/Classes/View;
-			sourceTree = "<group>";
-		};
-		E8D5E01129D6F02E0088EE87 /* Translator */ = {
-			isa = PBXGroup;
-			children = (
-				E8D5E01C29D6F02E0088EE87 /* GJBrowserDataConverter.h */,
-				E8D5E01829D6F02E0088EE87 /* GJBrowserDataConverter.m */,
-				E8D5E01329D6F02E0088EE87 /* GJBrowserTranslator.h */,
-				E8D5E01B29D6F02E0088EE87 /* GJBrowserTranslator.m */,
-				E8D5E01A29D6F02E0088EE87 /* GJBrowserPresentedAnimator.h */,
-				E8D5E01429D6F02E0088EE87 /* GJBrowserPresentedAnimator.m */,
-				E8D5E01F29D6F02E0088EE87 /* GJBrowserDismissedAnimator.h */,
-				E8D5E01529D6F02E0088EE87 /* GJBrowserDismissedAnimator.m */,
-				E8D5E01229D6F02E0088EE87 /* GJBrowserTransitionDriver.h */,
-				E8D5E01929D6F02E0088EE87 /* GJBrowserTransitionDriver.m */,
-				E8D5E01729D6F02E0088EE87 /* GJBrowseTransitionParameter.h */,
-				E8D5E01D29D6F02E0088EE87 /* GJBrowseTransitionParameter.m */,
-				E8D5E01E29D6F02E0088EE87 /* GJMultiMediaResoucre.h */,
-				E8D5E01629D6F02E0088EE87 /* GJMultiMediaResoucre.m */,
-			);
-			name = Translator;
-			path = ../GJMMBrowser/Classes/Translator;
-			sourceTree = "<group>";
-		};
-		E8D5E02129D6F02F0088EE87 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				E8D5E02229D6F02F0088EE87 /* GJMultiMediaBrowserHelper.h */,
-				E8D5E02329D6F02F0088EE87 /* GJMultiMediaBrowserHelper.m */,
-			);
-			name = Helper;
-			path = ../GJMMBrowser/Classes/Helper;
-			sourceTree = "<group>";
-		};
-		E8D5E02429D6F02F0088EE87 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				E8D5E02529D6F02F0088EE87 /* GJMultiMediaBrowserViewControllerDelegate.h */,
-				E8D5E02629D6F02F0088EE87 /* GJMultiMediaBrowserDelegate.h */,
-			);
-			name = Protocol;
-			path = ../GJMMBrowser/Classes/Protocol;
 			sourceTree = "<group>";
 		};
 		E8D5E03229D6F0780088EE87 /* Resources */ = {
@@ -399,16 +302,6 @@
 				E8D5E03629D6F0780088EE87 /* test24.webp */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		E8D5E06929D6F6530088EE87 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E8D5E06A29D6F6530088EE87 /* .gitkeep */,
-				E8D5E08029D6F9060088EE87 /* MMBrowser.xcassets */,
-			);
-			name = Assets;
-			path = ../GJMMBrowser/Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,8 +392,6 @@
 				E8D5E05529D6F07B0088EE87 /* test22.gif in Resources */,
 				E8D5E05629D6F07B0088EE87 /* test24.webp in Resources */,
 				E8D5E05C29D6F07B0088EE87 /* GJMultiMediaBrowser-Info.plist in Resources */,
-				E8D5E07429D6F6530088EE87 /* .gitkeep in Resources */,
-				E8D5E08129D6F9060088EE87 /* MMBrowser.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				E8D5E05429D6F07B0088EE87 /* test21.gif in Resources */,
 			);

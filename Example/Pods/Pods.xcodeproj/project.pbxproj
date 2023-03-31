@@ -7,167 +7,167 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0133499AB41707F99614B4F9752EEFBA /* GJBrowserDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88365DB5B5558F8CB0038F5D3CEE7143 /* GJBrowserDataConverter.m */; };
 		038D4DF8A0A00F3DACDBF5507868635A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
-		09EEC7E78260CA86731DDCD5FF9CB890 /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF6223336CE4A3713A296BC66D3BF48 /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04C4C339B2FBFE32899C78A2CAE47C90 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 657A068BCFF96DA8B1D6C2CDB5E760F6 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0740E342DD87E335443F975C50B08CE0 /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CF436768999738AD68ADE5052805B5 /* MKAnnotationView+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0940DA8972FC545783F672ACF8014882 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */; };
 		0A4B251979595A7EAE6AA0A0F519CC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
-		0FBC57B8B5C737D999A26A5F763FE249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
-		13491A32E1548E430BBB1E7D185A33C9 /* GJMultiMediaBrowserZoomScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F56E57EB347CD8FA811B8584C18F25E /* GJMultiMediaBrowserZoomScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15679DECBED441DBDFD128F89C03AFA1 /* GJMMBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF5A5394805A492AA1234A31B25EAC /* GJMMBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15D2475842F2798345AEA5B60F90AFF5 /* GJMultiMediaBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6739A46323E471F4CB5059D83C39A808 /* GJMultiMediaBrowserViewController.m */; };
-		17D3472BDF35A8B15C5A5A08B849E4A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */; };
-		182FA5A6BE9C82CF2BC8BF93A7896DAF /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C977A2BB6FE8CDDE1FF08960D77A05EA /* YYDiskCache.m */; };
-		1FA465B9B7C59625A4EBB4AC92EF6774 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEC5E993033D67A4F166BD4521EB6B9 /* UIImage+YYWebImage.m */; };
-		238C478E16E62ED68D5392EDAE858AC9 /* GJMMBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BFEB7B008C64A56EE671D37D35F6F4 /* GJMMBrowser.m */; };
-		23F46799F7DD3CE22EF23EE8714B1118 /* GJBrowseTransitionParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D88ACBBE447826B247735ACE58A3AA3 /* GJBrowseTransitionParameter.m */; };
-		25BF3A9271CD3599B859A39AD46AF51A /* GJMultiMediaResoucre.m in Sources */ = {isa = PBXBuildFile; fileRef = 147DE19CC206F8A5490B33CA58EF5340 /* GJMultiMediaResoucre.m */; };
-		26B6A55C2EAA08CDD51396228872653D /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D36659EF7602269432A65BE9CA288A45 /* CALayer+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29A9C41A13DCE96900CD5C5A1BB93CCD /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E86DC5A47D3F7A6391F2CA411E99DC /* YYFrameImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ADE7536F8B70044B6EFA5C8CA3E9E34 /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF3665B805F2F736830588C428BEC6A /* YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CA9058CAEF6E907396A057681EEA208 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D49C3F89B2412ED0A5E2FA78262E9EC1 /* YYSpriteSheetImage.m */; };
-		30B684D5255300C1C9610068205B0198 /* GJMultiMediaBrowserHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2411EB0E03BD72BDA204B6E6BEDE19A6 /* GJMultiMediaBrowserHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34B24A877B4094B5CCD3910B39290067 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEC9DD17ABBBA3ACDC199C345465FE /* YYKVStorage.m */; };
-		34DFAB181334D58315B01A08E77EBAC6 /* GJBrowserTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E66A1B65BD39C5F8D7541F6250412E /* GJBrowserTranslator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		351C552B28F6DF64B6C5D624FDCEB681 /* GJMultiMediaBrowserZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B80E487323FBE4BFA135B96A5C5E43EA /* GJMultiMediaBrowserZoomScrollView.m */; };
-		384EB35B0BF268ECB735F94EAD0BA460 /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AABEF9E9071A2D6C5D8C767F3B8C /* YYWebImageManager.m */; };
-		3ADFBC320B95ABADA697753D4316EE6C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEC8EF46AC23E94313E927905BF8EA0 /* ImageIO.framework */; };
+		0ABC3DC58CE72F7A9FF3164DC2396DCE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A8AC3B439B6264C9DD2A31BCF37833 /* MobileCoreServices.framework */; };
+		0BA96588FF7FE637C56A47C980C53E32 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A8AC3B439B6264C9DD2A31BCF37833 /* MobileCoreServices.framework */; };
+		0BB27547687C9AD3AE9E4B92FFCBD5F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
+		0C77E22D5665E46627CF7A2F4DB671EE /* GJMultiMediaResoucre.h in Headers */ = {isa = PBXBuildFile; fileRef = B571E9AB5057330CD4F1791DE0132D0F /* GJMultiMediaResoucre.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F899F97928F4731E4B46782F0C10107 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EBA6A6DDB1FF49541FB0A8216F1534 /* YYCache.m */; };
+		106E702BA666E0ADD79D024339C461EA /* GJMultiMediaBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A8FD803894B848D255F569610E9C0 /* GJMultiMediaBrowserCollectionViewCell.m */; };
+		11BDBB1AE79308F834AD5DC7F584A947 /* GJMultiMediaBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B28E9200B45961FC3E4EED6FD827782E /* GJMultiMediaBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B126C0E4CDE6E28C141DC837FB8C511 /* GJMultiMediaBrowserHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9173D878D7929189082D9316BFC0DE74 /* GJMultiMediaBrowserHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B843CDEF34BF05DB7475AEAD9C894E4 /* GJBrowserDismissedAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2A063E2991AF25FD0FFA2EB1F7460 /* GJBrowserDismissedAnimator.m */; };
+		1EA364FFF3EA2F4CA3036A85F5AB3A31 /* YYImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650A343CB29F4DEEB2F255F17266F40 /* YYImage-dummy.m */; };
+		29319B1A0DF4BD230CCD5EDF2BC53F51 /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6839BD3E4B57B35F65D7487B4FE261 /* YYSpriteSheetImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2DCD65A943CC8A1A12B1C0AC4D4A7C /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C977A2BB6FE8CDDE1FF08960D77A05EA /* YYDiskCache.m */; };
+		2C5DAC454738493D59CF79C8947EBA3D /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FCD1CBB72B1FEF192BDA1E5BDFE9B /* CALayer+YYWebImage.m */; };
+		3443A923D5CED1E720A5CC53F587D571 /* GJMultiMediaBrowserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A26DFAD1851F76B3DA03298DC3E9F3 /* GJMultiMediaBrowserHelper.m */; };
+		3489E674C7F4138AE8D31C32A1ADDD37 /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF6223336CE4A3713A296BC66D3BF48 /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357EE7DDC9245A536430571DF89DA244 /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 201401190824A78452848C8C663B7CDF /* UIImageView+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		359DB6140DDC72B4C179241E33076A66 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87C51BA4DFB93E04AAAE18C5415270 /* YYImage.m */; };
 		3E20159699CF6380A7038752EEF66E90 /* Pods-GJMMBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF132ED6080BDF9424BD0FAF74668761 /* Pods-GJMMBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40F8EE977D31A470D8F8A1BF1ECDC8B8 /* GJBrowserTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8516DFEA7366B9397B4DA94776AA414C /* GJBrowserTranslator.m */; };
-		43013DCD1BCFA53E13D620CD9019C22C /* GJBrowserPresentedAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04230CBBFE3B5988B6B57664A785AFCD /* GJBrowserPresentedAnimator.m */; };
-		47D1B813116812CF3F5D102783E927AA /* GJMultiMediaBrowserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75ED6F808F70AB88287E22C7053357 /* GJMultiMediaBrowserHelper.m */; };
-		48F3F3BDDBA09141EB82296626BAD946 /* GJBrowserDismissedAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C641A775EB40649741F221E148637279 /* GJBrowserDismissedAnimator.m */; };
-		4953834FD32F32B9975B12258E0AF3BA /* GJMMBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAF1E01910F40F6124414FB9479E354 /* GJMMBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		499DC88324D2B91740BE47BFB7A63760 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A88601D6D9C993EA92B5F040535F0E /* YYFrameImage.m */; };
-		4F0F412FC47FAA7F2FA6CFD7D47FAC07 /* GJBrowserDismissedAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BAB4436F94D90683D6DEE806AE5D60 /* GJBrowserDismissedAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F23B2729D94389B7173FB12D8DBBE52 /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1576720309CDD677B64C9928B5055566 /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB1A74CB9F7C156E8C508321AEF9538 /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1576720309CDD677B64C9928B5055566 /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450893F4C04CD065A6A6C2BBB91D9984 /* GJBrowserTransitionDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = D2458F6D58243F7C6C62C5D64FEA3AE8 /* GJBrowserTransitionDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462A7141FBFEC2F9400938CB754C25F8 /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F83B522CF8538836AEFBCEB8CC77413F /* YYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494DC6ED5A98D55DB4B56C9DEAABD430 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE886619617E8EF0986FE968933AF17 /* MKAnnotationView+YYWebImage.m */; };
+		4B906F9C8353C9DDB333D36A9CB2265F /* GJBrowserTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A1A100A1386839810C438EDD4A19F0 /* GJBrowserTranslator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1CE42E39202EB807A7368AB4E63189 /* GJMultiMediaBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 235395F284BBA8B9ED159B686851F19D /* GJMultiMediaBrowserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C861A25228D019BD55DEC2074E1F1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */; };
+		5174D3700F4CC0D4A07E8C4AAD41F1DF /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AFF93AFC14620220BA1AA223AC8DD /* YYAnimatedImageView.m */; };
 		52497DB3A97C61BF2D709ADABFD5A350 /* Pods-GJMMBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC542E3722296E4766964ED4FD0BB75 /* Pods-GJMMBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54177545E50E72604B6884B70B74592C /* GJMultiMediaBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A68915EDFB5BBB7AF0B567B53739A102 /* GJMultiMediaBrowserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		548B68E3766AB0D1CEAFD83850A812CE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB4DEA67FF952F98867817788C320DB /* Accelerate.framework */; };
-		55165350C24FA4AFE68DFB098FA71728 /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6839BD3E4B57B35F65D7487B4FE261 /* YYSpriteSheetImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		566E652DF33A99ECF5C74F54FD00B40E /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 201401190824A78452848C8C663B7CDF /* UIImageView+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		584634B3C85E8C3D13FF2D1EE200815E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */; };
-		5D828A241F7F2E57B2B2670438069BAD /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE9FBEF61B052A3AD71FE174E60BB4D /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EC118BD6A468804E3A60D7AA6D7D2FD /* GJBrowserDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B63EB8B88FFC8E73F7D31CFEBB08B69 /* GJBrowserDataConverter.m */; };
-		60A0CD790A3C88C91091EA7D07CFEE2F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */; };
-		6209A37FFD7DECB42B290BF66EB16D4A /* GJMultiMediaBrowserNavBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1FAC8A969C94E5A627ADB1CF57AAE1 /* GJMultiMediaBrowserNavBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62D2A3E87CD39A431E7B2F68A6E8CAA6 /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F6AACA2669F30E8A675630F172A610 /* YYImageCache.m */; };
-		6631E1D5554D3E0857C5AC3751A2C731 /* GJMultiMediaBrowserNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4CA299B1517667BA55DBD6FA60D13 /* GJMultiMediaBrowserNavBarView.m */; };
-		6794AEA3300C4C490913419BEF8C836A /* YYWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C87701485C076ABF1DE3E0020DD256 /* YYWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67DFA78A2F503678C97605C817729A71 /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F83B522CF8538836AEFBCEB8CC77413F /* YYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EC9E5B74CB619352EC566676EB12DDA /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D562EA0DC3C398E97C3114E7B76BF3EE /* YYCache-dummy.m */; };
+		593405EBC525C079396473332A6DE80C /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 811AC55C420A84F9A585741586D5EC8C /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5F4B5A1806D537BE0F929C874AA6A5 /* GJBrowserTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DC0F9B7CAAF31FF7911B5C25C539BB /* GJBrowserTranslator.m */; };
+		5F0135A36C2BA6364B28A2CC4BC377A7 /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A243367D7E565663FD520EAD49D86 /* _YYWebImageSetter.m */; };
+		604766A353ED4D80CD9B4C637E979901 /* GJMultiMediaBrowserZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F1D28440052EBF248ABEC4FF0FD1B /* GJMultiMediaBrowserZoomScrollView.m */; };
+		649EC01856B2F0AEDDA7C32BC91B44A4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */; };
+		654C6647699B10AD5ABF3360B03379BC /* GJBrowserDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B959245C9E6FA840D8C47322797100 /* GJBrowserDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686EA5FC557EA3A9B9B3172787D52B3E /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A88601D6D9C993EA92B5F040535F0E /* YYFrameImage.m */; };
+		69BEA477F5E76E98CFA7172240830610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */; };
+		6A0BCD11012B7595275BB3B9C6833B99 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB4DEA67FF952F98867817788C320DB /* Accelerate.framework */; };
+		6D6D037FE9BDF474ABB560786126C133 /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */; };
 		70A8D6F7FEAB13F0C1A2A1C455A90CF5 /* Pods-GJMMBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB545BA94BE7D85CBC35932E2DEDBFB /* Pods-GJMMBrowser_Tests-dummy.m */; };
-		71854197FA7301D72C87A31149E6FA56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */; };
-		73A35245D1686211746FC3D54BC17179 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */; };
-		7409149B460C375E4D8194006E13C236 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */; };
-		77697F5E6D83BBC6FD95DBF0B4A266BF /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C0AD7C6F3B93971CC3E186FC8181F3 /* YYAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7875574594BD57229664C4FCC2F7465B /* GJMultiMediaBrowserCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 424E3EC9F99CD4D4A12EE78669251414 /* GJMultiMediaBrowserCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BA62DE653370AF744E8004EF4FE89EB /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D864016C09569D332CAF92BC792028F9 /* YYImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7E5C4F17E5CEC37D6D32E4D93EBD8E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB4DEA67FF952F98867817788C320DB /* Accelerate.framework */; };
-		7DFAA53799D0F5FB7CBF0CC33DB9B16C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */; };
-		8067B2DBD9DB659806B875C61A026A0F /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F032DAF195902490E1868040EC22D4C2 /* YYImageCoder.m */; };
-		8772FB911433CC61C6CAC91E7F3B8C41 /* GJBrowserPresentedAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 755D7E41A051111733FE7314F1D6BB91 /* GJBrowserPresentedAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C9F4690DE4855B067FA3DBBA1D088AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
-		91574E857D5281E58F399B3770633D3B /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 430205C3EE01E1850845CC34BB4E6877 /* YYImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96D134897DC717FE9846F4D9E3C8D1C3 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 657A068BCFF96DA8B1D6C2CDB5E760F6 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98F3516D45AC67E08AB3DEB75E1F1EEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */; };
+		71831F81E939339C2AA9699660E58DC6 /* GJBrowserPresentedAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B377F58EDF2CDD8F17A12EBD4D0AAF3D /* GJBrowserPresentedAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F3D524DDDABA023B430D3016697BAD /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF3665B805F2F736830588C428BEC6A /* YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74874D5D8E51954F9882F73CD6548C94 /* GJMultiMediaBrowserCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7C5950B6A8B00CD66AB5528B174872 /* GJMultiMediaBrowserCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759436C4BD5141BAA9B05568D319B5C0 /* GJMultiMediaBrowserNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD85507AAD4D11279B7CAFE9CCCEB5E1 /* GJMultiMediaBrowserNavBarView.m */; };
+		77118B4C51B2899308A2CD40C14184CF /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4C869FFE05F516F98D432697498ED /* UIImageView+YYWebImage.m */; };
+		7811C127660155D4D29D6F60C231C8C3 /* GJBrowserDismissedAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B42103CCE1FE50EE3CA7B960CE3C4F6C /* GJBrowserDismissedAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781A60BDAB75B8877C54EB72386F0DBB /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D864016C09569D332CAF92BC792028F9 /* YYImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78899A91676F45DDD7D3B7E4708C87A1 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F032DAF195902490E1868040EC22D4C2 /* YYImageCoder.m */; };
+		797BCB35EAA30AF2D5E0843719A02062 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D49C3F89B2412ED0A5E2FA78262E9EC1 /* YYSpriteSheetImage.m */; };
+		7A85E3D01A67B6A9F5D8EA54129E31F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */; };
+		7B5D8EFD68B981A92BADFD6A9D5F7B40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */; };
+		7C9A9BD50C689DF442695DAA07EF1E07 /* GJMMBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB75F298BFE0350FFCA3FA201998F7E /* GJMMBrowser.m */; };
+		7DAC02DC97FF2D37E299220A27B7723C /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CF45E6B6625006EE260E31FACF3E5 /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E02B4903EF3AB2BAA67245C10343C86 /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E86DC5A47D3F7A6391F2CA411E99DC /* YYFrameImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E2D1AD97B7E28E75CBAB8250CD95E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
+		8211D23C294DC5A678B08F8BC665785B /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4179F3AAC4303DF8DEEF7B4EF0998F22 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6619060ECDBDDF529DB559E91FC210 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEC5E993033D67A4F166BD4521EB6B9 /* UIImage+YYWebImage.m */; };
+		8CA05EB5413F007AA2FFDB30CA876150 /* GJMMBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBD4FF6A109B5ED8D7C0EF5560B6284 /* GJMMBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5EC44A73EE9B393FBECA79B2C927EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */; };
+		912BD1CF57352D7EBC4B9747C6572CD8 /* GJMultiMediaBrowserNavBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = C84B24CBC80EA8224EFB5ED8E1FB088E /* GJMultiMediaBrowserNavBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B2485B33F0C1D3562610C7C5CABBAB /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F6AACA2669F30E8A675630F172A610 /* YYImageCache.m */; };
+		9361B948671FCDCD980B9AABD6BA90A7 /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 430205C3EE01E1850845CC34BB4E6877 /* YYImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94CAD85D9B14ED8A1C57F69CFD3A2172 /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D36659EF7602269432A65BE9CA288A45 /* CALayer+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98482899D73B4F94F68D18BE3D4FD6DF /* GJBrowserPresentedAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0422B0E7888083C46A5FB8D5FC56E4 /* GJBrowserPresentedAnimator.m */; };
 		9D301FEA0059F786F775EF7BF7A42CF2 /* Pods-GJMMBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F15FAC18C3D9A7FFF8B3235317ED70B /* Pods-GJMMBrowser_Example-dummy.m */; };
-		9D6D130D135FF2116FB721B1D209CFE9 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4179F3AAC4303DF8DEEF7B4EF0998F22 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E0889F77F867A783957507E00A6AFE6 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AFF93AFC14620220BA1AA223AC8DD /* YYAnimatedImageView.m */; };
-		9E69003637C72DA2E561B4D931066731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
-		9F66E1233CACA7303A18976F81E26594 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CF45E6B6625006EE260E31FACF3E5 /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1A73DD7FC3620785C5F86E25282019F /* GJMMBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20A1C5F3D51A025545F629F36B881D /* GJMMBrowser-dummy.m */; };
+		9D78BEAF1BAFA1868B9D28756BBD0E73 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */; };
+		9E0CB25A6731A5D7C0674A68ACD4BF5E /* YYImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9BE25BCE5FBEDEE893E3B564476943 /* YYImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12DEB4766A0FB4ED1535EEF1A46E59A /* GJBrowseTransitionParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEB9393DB0AA7FF0465440F78E502F7 /* GJBrowseTransitionParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1DF3BBC10AB6652DF762CC023281EB0 /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E887F31345E514A18498AF2B8836177 /* UIImage+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EB500453B3802DE406A32214AED9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
+		A667F60BB65340CDF69939A0BFA62943 /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C0AD7C6F3B93971CC3E186FC8181F3 /* YYAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A70E8CB60EE90C1B9AFFC001D28D55DB /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB320C0B95DFECF01DC1410FCDC8A04 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7D95D24189F3758315A3F5182900895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */; };
-		AE5FCE247D3028E967DCF7FF27E107EE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A8AC3B439B6264C9DD2A31BCF37833 /* MobileCoreServices.framework */; };
-		AFBD4D19F3F9FE9237D1C5EF3377CB9E /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */; };
-		BCD6CDF74450346F8C1C05E538BC315A /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB62870A5D1FB04B52EC470C76B0CA /* YYMemoryCache.m */; };
-		BCEAFCDDEA303533B304A5D480D898E7 /* GJMultiMediaResoucre.h in Headers */ = {isa = PBXBuildFile; fileRef = 0508AA147E492F097283AF669D73ABB2 /* GJMultiMediaResoucre.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF67D925204487F1603C09D820C322DB /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB320C0B95DFECF01DC1410FCDC8A04 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C04DC6DE689CC126F8AC0EC47B67186D /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9156EA80E0352801992B21062E31D5 /* UIButton+YYWebImage.m */; };
-		C3EA2A5BE18CF4C5685A6E9D761E60BF /* YYImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9BE25BCE5FBEDEE893E3B564476943 /* YYImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6D71E3D655AC6DF4287B0A8BB75C4FC /* GJBrowserTransitionDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E1C8F95249E2E657B9597AE7EEE48 /* GJBrowserTransitionDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C85BB55CC23D7F3C29E339EAEA4D2EA3 /* GJBrowseTransitionParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A45E7539C1906616DA07B6E2C0DE18 /* GJBrowseTransitionParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA4D7985574DEC138CF13DC59406BC32 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE886619617E8EF0986FE968933AF17 /* MKAnnotationView+YYWebImage.m */; };
-		CC5E57F47284D6474D3D6D03C9075244 /* GJMultiMediaBrowserViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D5DDD42FA9C798F9822B7422F64ED3 /* GJMultiMediaBrowserViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD007F6BAFB07CDD8B620EA16A6E8B64 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A87C51BA4DFB93E04AAAE18C5415270 /* YYImage.m */; };
-		D885ECD82AC4BAC8F063BFA0867DA315 /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A243367D7E565663FD520EAD49D86 /* _YYWebImageSetter.m */; };
-		DCFAB33E6C42DEB544A7779387DABB71 /* YYWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0611A3588B61BE71D04FA034AE98BDD5 /* YYWebImage-dummy.m */; };
-		DF79271C128D4DE8BD00B0E65DF18724 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EBA6A6DDB1FF49541FB0A8216F1534 /* YYCache.m */; };
-		E28136EDD947434EF11D5A24902DEE09 /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CF436768999738AD68ADE5052805B5 /* MKAnnotationView+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E285EB0BDA28106CC6F8C6D0280C6ABF /* GJBrowserTransitionDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D02AF6CE6C8A8122E7FA0B7471B8AE /* GJBrowserTransitionDriver.m */; };
-		E459AB5A56223818583F8C38CBFC868D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */; };
-		E59F3923D9905B0F4830E7C6A6846253 /* GJMultiMediaBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE15FD6167FA90D81CBBF785FE441AA /* GJMultiMediaBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E98E8351DDEE692A86065C1DB60A129B /* GJBrowserDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0FEE66844FE2587AAD238CAD46C18C /* GJBrowserDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAFC5609224DE30FCEC146B8FEA0EE4C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A8AC3B439B6264C9DD2A31BCF37833 /* MobileCoreServices.framework */; };
-		EB5A3CCA44F9D7110854B1F13FD7A9B8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEC8EF46AC23E94313E927905BF8EA0 /* ImageIO.framework */; };
-		EE89A8A4B02742B45DBDAD24A473C3FD /* YYImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650A343CB29F4DEEB2F255F17266F40 /* YYImage-dummy.m */; };
-		F077CD87FC21F1D82C7A1F25D8733584 /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4C869FFE05F516F98D432697498ED /* UIImageView+YYWebImage.m */; };
-		F49B8958DDF061ADCC57B25E4DF3B26F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */; };
-		F4E1574D61C8FBC944C19A9FEC77DBED /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */; };
-		F81486EF494E232621A8DA34C29EA44E /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E887F31345E514A18498AF2B8836177 /* UIImage+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9071F9281B51B650D3BF6D567AB7113 /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B4B5F94F077658A3E991C71501D9FA /* _YYWebImageSetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AA8A231FE9ADAC8857C27F9F4BF2CDEA /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEC8EF46AC23E94313E927905BF8EA0 /* ImageIO.framework */; };
+		AAD889A526585DF122EFC82B0405193C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB4DEA67FF952F98867817788C320DB /* Accelerate.framework */; };
+		ADC628D2B616BE195DB0D5267E045980 /* GJBrowseTransitionParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = D01F8F98CCF22DB1794F479DD624D5B6 /* GJBrowseTransitionParameter.m */; };
+		AFCA165FF158BC506427B8173C45A625 /* YYWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C87701485C076ABF1DE3E0020DD256 /* YYWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3762A2204671F1F2EB36AEAE85D9286 /* GJMMBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E1B37F406ADB8A4A98E10409970691 /* GJMMBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B990271BC61E4466897713BCDBB0A152 /* GJMultiMediaBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D334B4E02EB53B48E497B4C8A3B4FB /* GJMultiMediaBrowserViewController.m */; };
+		BEB9D0051C25A0DFC13E37EFDA976E6B /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D562EA0DC3C398E97C3114E7B76BF3EE /* YYCache-dummy.m */; };
+		C0DE6ABD4D7A181D703350368CB6E41F /* GJBrowserTransitionDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE262353C1C2DC32E518359868B16B5D /* GJBrowserTransitionDriver.m */; };
+		C506D12A83C3AA3076A339A74808D6F6 /* YYWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0611A3588B61BE71D04FA034AE98BDD5 /* YYWebImage-dummy.m */; };
+		C83AF9B636399F3BB7F62C9DC03DEE7B /* GJMultiMediaBrowserViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1173EECA6A770E9EDBC01364A88BE218 /* GJMultiMediaBrowserViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB54E66F9BC1244F73212740FD2104F5 /* GJMMBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF394527B1ADB8D4EDF8DDD56186BB /* GJMMBrowser-dummy.m */; };
+		CD47A31A13FBCB2BD6AE6FDC93DA4DAC /* GJMultiMediaBrowserZoomScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D804F41B2426E2C1873E74194CED2F93 /* GJMultiMediaBrowserZoomScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E8863BDAD0758418B5D0E577D83F96 /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B4B5F94F077658A3E991C71501D9FA /* _YYWebImageSetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D21F47F354C64A6FB486454E6B11EEE8 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE9FBEF61B052A3AD71FE174E60BB4D /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23A59AB080DA62DB1B723AA884A5DB8 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEC9DD17ABBBA3ACDC199C345465FE /* YYKVStorage.m */; };
+		D617AB1FF2A8C9E72720FF3BC9CEF0B9 /* GJMultiMediaResoucre.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C9772619E6B0C4A195694EC90BFE76 /* GJMultiMediaResoucre.m */; };
+		DA60572EBF8392EAEEA71F4B57D7B98C /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB62870A5D1FB04B52EC470C76B0CA /* YYMemoryCache.m */; };
+		DE5164973B579F6FB876F650221E92AE /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9156EA80E0352801992B21062E31D5 /* UIButton+YYWebImage.m */; };
+		E800177643065966EC3D0AAD8792EA79 /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AABEF9E9071A2D6C5D8C767F3B8C /* YYWebImageManager.m */; };
+		EFCFB83EA1985EC5E0D2AE647E11FBB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */; };
+		F7718601F8596F348EE52F8CA68E91DD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */; };
 		FA4CFE39074C3AF8617F322312F72E75 /* GJMMBrowser-GJMMBrowser in Resources */ = {isa = PBXBuildFile; fileRef = EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser-GJMMBrowser */; };
-		FB0C40A1FB48F97AE20AE79B6D4EFD44 /* GJMultiMediaBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1EEE5F77BDCD83F764C927099EAC /* GJMultiMediaBrowserCollectionViewCell.m */; };
-		FCA36E628B3988C5DB8E970409DD3373 /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 811AC55C420A84F9A585741586D5EC8C /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE9CA31F01E9BFDCB1EEB68035D85BCE /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FCD1CBB72B1FEF192BDA1E5BDFE9B /* CALayer+YYWebImage.m */; };
+		FD94368C5D005C737A275F4392D529D1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEC8EF46AC23E94313E927905BF8EA0 /* ImageIO.framework */; };
+		FDBDB9D9BC102BEC50C56B4EFCA0B013 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1EB31E3A91D3543E75DD0CF2AC8017C2 /* PBXContainerItemProxy */ = {
+		058A517318E822A81EBA0ED3C4F69AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
-			remoteInfo = YYCache;
+			remoteGlobalIDString = 488E8C830C5A5694EE916251B9ADAADA;
+			remoteInfo = YYWebImage;
 		};
-		2CFD4B9D2C69D284978645787E160C09 /* PBXContainerItemProxy */ = {
+		164A5279DEA1AB2A37BCFE76D83EE550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CC02568D8E890E3CF534B146F40890E3;
 			remoteInfo = GJMMBrowser;
 		};
-		3AFAED33DC989CCAC2C277F6523BB36D /* PBXContainerItemProxy */ = {
+		2DBB67EC706D6C9F22DA76DB39012E2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 00F7C849752B9CC720394EAA6FCF7BBD;
 			remoteInfo = "Pods-GJMMBrowser_Example";
 		};
-		3FC62A59283A731A87ED273760A747AC /* PBXContainerItemProxy */ = {
+		3BC09F437A9BEEEE1455A413AEF8ED06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 488E8C830C5A5694EE916251B9ADAADA;
 			remoteInfo = YYWebImage;
 		};
-		5EA8F1D58FAF37127E71AA89FC7A2EE2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 822E44240F2922DAB12018A6B649BD19;
-			remoteInfo = YYImage;
-		};
-		8A7C6FC3EB152160606470E3A59ADE16 /* PBXContainerItemProxy */ = {
+		7B7416BBBDDA981444C9004E5A02EDB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 64036C4B20DD62D7AAA6A0AA11B8FB47;
 			remoteInfo = "GJMMBrowser-GJMMBrowser";
 		};
-		97827A16B7B39FC049DF12DF243BD6F5 /* PBXContainerItemProxy */ = {
+		92F8BAAA956CB1A920E890A2272835B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 822E44240F2922DAB12018A6B649BD19;
 			remoteInfo = YYImage;
 		};
-		FDA6860384FF6410991E0E8AB27268A4 /* PBXContainerItemProxy */ = {
+		B22F39D2120AD7BF931058A152EF6E93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 488E8C830C5A5694EE916251B9ADAADA;
-			remoteInfo = YYWebImage;
+			remoteGlobalIDString = 822E44240F2922DAB12018A6B649BD19;
+			remoteInfo = YYImage;
 		};
-		FE1280A213E65875197FA9EE21FB71B5 /* PBXContainerItemProxy */ = {
+		F51D0798A486390999B3F15CB779F1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
+			remoteInfo = YYCache;
+		};
+		FE5EA2D3E671D3644306FDC2A3B5E221 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -177,147 +177,147 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04230CBBFE3B5988B6B57664A785AFCD /* GJBrowserPresentedAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserPresentedAnimator.m; sourceTree = "<group>"; };
-		0508AA147E492F097283AF669D73ABB2 /* GJMultiMediaResoucre.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaResoucre.h; sourceTree = "<group>"; };
 		0611A3588B61BE71D04FA034AE98BDD5 /* YYWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYWebImage-dummy.m"; sourceTree = "<group>"; };
 		0650A343CB29F4DEEB2F255F17266F40 /* YYImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYImage-dummy.m"; sourceTree = "<group>"; };
 		06FA275CB35A400851268DC1BECA9F44 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		0C6F4829D47D1826F47CDC4264F9F6A8 /* YYImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYImage; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D0FEE66844FE2587AAD238CAD46C18C /* GJBrowserDataConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowserDataConverter.h; sourceTree = "<group>"; };
-		106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJMMBrowser.release.xcconfig; sourceTree = "<group>"; };
+		1173EECA6A770E9EDBC01364A88BE218 /* GJMultiMediaBrowserViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserViewControllerDelegate.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserViewControllerDelegate.h; sourceTree = "<group>"; };
 		12050AA2BD7A16B2A29CFBC2CE5462E7 /* YYWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYWebImage.release.xcconfig; sourceTree = "<group>"; };
 		1454441AE4D3D9BF37360FC19FB48059 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		147DE19CC206F8A5490B33CA58EF5340 /* GJMultiMediaResoucre.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaResoucre.m; sourceTree = "<group>"; };
 		1576720309CDD677B64C9928B5055566 /* YYWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageOperation.h; path = YYWebImage/YYWebImageOperation.h; sourceTree = "<group>"; };
-		15D5DDD42FA9C798F9822B7422F64ED3 /* GJMultiMediaBrowserViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserViewControllerDelegate.h; sourceTree = "<group>"; };
 		15E9DFEC77F5559EF3447C6FBA8959A3 /* Pods-GJMMBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJMMBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		162964B735F0054DCA7D02EC4867E3DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		1BEFBE691A28F59016B02E4855F3B501 /* Pods-GJMMBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJMMBrowser_Tests.modulemap"; sourceTree = "<group>"; };
 		1E223A85F48FAE9837AC0673D570A00C /* YYImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYImage.modulemap; sourceTree = "<group>"; };
-		1E376DCD62F415441D2D22DD0F8892D7 /* GJMMBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJMMBrowser.modulemap; sourceTree = "<group>"; };
 		1E39AABEF9E9071A2D6C5D8C767F3B8C /* YYWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageManager.m; path = YYWebImage/YYWebImageManager.m; sourceTree = "<group>"; };
-		200538B4E0BFA1700447BA23C57620F9 /* GJMMBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJMMBrowser-Info.plist"; sourceTree = "<group>"; };
 		201401190824A78452848C8C663B7CDF /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YYWebImage.h"; path = "YYWebImage/Categories/UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
-		2411EB0E03BD72BDA204B6E6BEDE19A6 /* GJMultiMediaBrowserHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserHelper.h; sourceTree = "<group>"; };
+		235395F284BBA8B9ED159B686851F19D /* GJMultiMediaBrowserDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserDelegate.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserDelegate.h; sourceTree = "<group>"; };
 		25EBA6A6DDB1FF49541FB0A8216F1534 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 		29DAD12CB13CAF2849DBB95012111AE4 /* GJMMBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GJMMBrowser; path = GJMMBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A87C51BA4DFB93E04AAAE18C5415270 /* YYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImage.m; path = YYImage/YYImage.m; sourceTree = "<group>"; };
 		2E887F31345E514A18498AF2B8836177 /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYWebImage.h"; path = "YYWebImage/Categories/UIImage+YYWebImage.h"; sourceTree = "<group>"; };
 		2EF6223336CE4A3713A296BC66D3BF48 /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYWebImage/YYWebImageManager.h; sourceTree = "<group>"; };
-		2F56E57EB347CD8FA811B8584C18F25E /* GJMultiMediaBrowserZoomScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserZoomScrollView.h; sourceTree = "<group>"; };
-		342E1C8F95249E2E657B9597AE7EEE48 /* GJBrowserTransitionDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowserTransitionDriver.h; sourceTree = "<group>"; };
-		34BFEB7B008C64A56EE671D37D35F6F4 /* GJMMBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMMBrowser.m; path = GJMMBrowser/Classes/GJMMBrowser.m; sourceTree = "<group>"; };
+		2F1A54A17C4B2A8C4E2BF707E4BA8A62 /* GJMMBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJMMBrowser-Info.plist"; sourceTree = "<group>"; };
+		31DC0F9B7CAAF31FF7911B5C25C539BB /* GJBrowserTranslator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJBrowserTranslator.m; path = GJMMBrowser/Classes/GJBrowserTranslator.m; sourceTree = "<group>"; };
 		361FCD1CBB72B1FEF192BDA1E5BDFE9B /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYWebImage/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
 		38A8AC3B439B6264C9DD2A31BCF37833 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		3AE886619617E8EF0986FE968933AF17 /* MKAnnotationView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+YYWebImage.m"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.m"; sourceTree = "<group>"; };
 		3EB4DEA67FF952F98867817788C320DB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		4179F3AAC4303DF8DEEF7B4EF0998F22 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
-		424E3EC9F99CD4D4A12EE78669251414 /* GJMultiMediaBrowserCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserCollectionViewCell.h; sourceTree = "<group>"; };
 		430205C3EE01E1850845CC34BB4E6877 /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
-		4407BD2204026DC672719516B97EBE01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		45C9772619E6B0C4A195694EC90BFE76 /* GJMultiMediaResoucre.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaResoucre.m; path = GJMMBrowser/Classes/GJMultiMediaResoucre.m; sourceTree = "<group>"; };
 		460CBC237E41400D48E14ED0CAA3B427 /* YYCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.release.xcconfig; sourceTree = "<group>"; };
+		47A1A100A1386839810C438EDD4A19F0 /* GJBrowserTranslator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowserTranslator.h; path = GJMMBrowser/Classes/GJBrowserTranslator.h; sourceTree = "<group>"; };
 		47C1EE6F4FD3F8440784A114FE05DBFF /* YYImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYImage.debug.xcconfig; sourceTree = "<group>"; };
 		48ACF38225AF5129416A1F090F6D3286 /* YYCache */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B63EB8B88FFC8E73F7D31CFEBB08B69 /* GJBrowserDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserDataConverter.m; sourceTree = "<group>"; };
-		4DD47B86F68AA81490275B2499D43784 /* GJMMBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJMMBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F15FAC18C3D9A7FFF8B3235317ED70B /* Pods-GJMMBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJMMBrowser_Example-dummy.m"; sourceTree = "<group>"; };
 		4FC1978206616CE319648B302B05AA8A /* YYWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYWebImage; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52BAB4436F94D90683D6DEE806AE5D60 /* GJBrowserDismissedAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowserDismissedAnimator.h; sourceTree = "<group>"; };
 		53D25528444E4391556F4AB83AA4517B /* Pods-GJMMBrowser_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GJMMBrowser_Example"; path = Pods_GJMMBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F6AACA2669F30E8A675630F172A610 /* YYImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCache.m; path = YYWebImage/YYImageCache.m; sourceTree = "<group>"; };
 		55E86DC5A47D3F7A6391F2CA411E99DC /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYImage/YYFrameImage.h; sourceTree = "<group>"; };
+		5682F1B32AAFEC2A0CA06AD67C646CBC /* GJMMBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMMBrowser-prefix.pch"; sourceTree = "<group>"; };
 		56CF436768999738AD68ADE5052805B5 /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+YYWebImage.h"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
 		56FE390C3E58607BC49CE7BDABF2F866 /* Pods-GJMMBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMMBrowser_Example-Info.plist"; sourceTree = "<group>"; };
 		5AE0190F625DAA8F5BA1A55F8F990324 /* YYCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCache-Info.plist"; sourceTree = "<group>"; };
+		5C0422B0E7888083C46A5FB8D5FC56E4 /* GJBrowserPresentedAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJBrowserPresentedAnimator.m; path = GJMMBrowser/Classes/GJBrowserPresentedAnimator.m; sourceTree = "<group>"; };
 		5EE9FBEF61B052A3AD71FE174E60BB4D /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
+		605F1D28440052EBF248ABEC4FF0FD1B /* GJMultiMediaBrowserZoomScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaBrowserZoomScrollView.m; path = GJMMBrowser/Classes/GJMultiMediaBrowserZoomScrollView.m; sourceTree = "<group>"; };
 		61F51D3120652D870A9DCC95432007DE /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
 		6268787B2112936AAB74C9E76B5B51EA /* YYImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYImage-Info.plist"; sourceTree = "<group>"; };
-		62DAC7E60E8498EF62EB60C644ECB6B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		657A068BCFF96DA8B1D6C2CDB5E760F6 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		660F0F74CE74FACB1D998E35CECCBD9C /* Pods-GJMMBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6739A46323E471F4CB5059D83C39A808 /* GJMultiMediaBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserViewController.m; sourceTree = "<group>"; };
 		67CE0483753230A5C375F0033FE9B8C9 /* Pods-GJMMBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BF2C1EF41EAFF86CFEFCC1C3E58D82B /* YYWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYWebImage-Info.plist"; sourceTree = "<group>"; };
 		6BF3665B805F2F736830588C428BEC6A /* YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImage.h; path = YYWebImage/YYWebImage.h; sourceTree = "<group>"; };
 		6CB320C0B95DFECF01DC1410FCDC8A04 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
-		6CED6521E0637739ED4477CDF41B6224 /* ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist"; sourceTree = "<group>"; };
-		755D7E41A051111733FE7314F1D6BB91 /* GJBrowserPresentedAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowserPresentedAnimator.h; sourceTree = "<group>"; };
+		70BE9B426C2F35E215FEA12602217872 /* GJMMBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJMMBrowser.modulemap; sourceTree = "<group>"; };
 		77DBCF831F221F97430962C7C1D098A7 /* Pods-GJMMBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJMMBrowser_Example.modulemap"; sourceTree = "<group>"; };
 		7BF4C869FFE05F516F98D432697498ED /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+YYWebImage.m"; path = "YYWebImage/Categories/UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
 		7CBA5CAE4C200D8A8B428E018DF05860 /* Pods-GJMMBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJMMBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7CBD4FF6A109B5ED8D7C0EF5560B6284 /* GJMMBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMMBrowser-umbrella.h"; sourceTree = "<group>"; };
 		7D6839BD3E4B57B35F65D7487B4FE261 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSpriteSheetImage.h; path = YYImage/YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		80768F650DB9EB099BF116AD2BF73A8E /* YYWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		811AC55C420A84F9A585741586D5EC8C /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YYWebImage.h"; path = "YYWebImage/Categories/UIButton+YYWebImage.h"; sourceTree = "<group>"; };
-		83FF1EEE5F77BDCD83F764C927099EAC /* GJMultiMediaBrowserCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserCollectionViewCell.m; sourceTree = "<group>"; };
 		8423F23CC09E7E813595E9B6C54FC416 /* YYImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYImage.release.xcconfig; sourceTree = "<group>"; };
-		8516DFEA7366B9397B4DA94776AA414C /* GJBrowserTranslator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserTranslator.m; sourceTree = "<group>"; };
 		8658C27D55A06EA17D0C51DC1458C027 /* Pods-GJMMBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMMBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88365DB5B5558F8CB0038F5D3CEE7143 /* GJBrowserDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJBrowserDataConverter.m; path = GJMMBrowser/Classes/GJBrowserDataConverter.m; sourceTree = "<group>"; };
+		88B959245C9E6FA840D8C47322797100 /* GJBrowserDataConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowserDataConverter.h; path = GJMMBrowser/Classes/GJBrowserDataConverter.h; sourceTree = "<group>"; };
 		88EE85D83B70F7DCE448D65E71722AC6 /* YYWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYWebImage.modulemap; sourceTree = "<group>"; };
-		8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJMMBrowser.debug.xcconfig; sourceTree = "<group>"; };
 		8CFFEF7A61F0E0AEB2C1DC5C71778033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8D88ACBBE447826B247735ACE58A3AA3 /* GJBrowseTransitionParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowseTransitionParameter.m; sourceTree = "<group>"; };
+		8E7C5950B6A8B00CD66AB5528B174872 /* GJMultiMediaBrowserCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserCollectionViewCell.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserCollectionViewCell.h; sourceTree = "<group>"; };
 		8EB545BA94BE7D85CBC35932E2DEDBFB /* Pods-GJMMBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJMMBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
 		8EC542E3722296E4766964ED4FD0BB75 /* Pods-GJMMBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJMMBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
 		8ECB0DA8202F632A43DEBC8F9783A24C /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
+		9173D878D7929189082D9316BFC0DE74 /* GJMultiMediaBrowserHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserHelper.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserHelper.h; sourceTree = "<group>"; };
 		96B4B5F94F077658A3E991C71501D9FA /* _YYWebImageSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _YYWebImageSetter.h; path = YYWebImage/Categories/_YYWebImageSetter.h; sourceTree = "<group>"; };
-		96BF5A5394805A492AA1234A31B25EAC /* GJMMBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMMBrowser.h; path = GJMMBrowser/Classes/GJMMBrowser.h; sourceTree = "<group>"; };
 		97B7FC0262643BD8F155FE599C42784A /* Pods-GJMMBrowser_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMMBrowser_Tests-Info.plist"; sourceTree = "<group>"; };
 		97FB62870A5D1FB04B52EC470C76B0CA /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
-		99D02AF6CE6C8A8122E7FA0B7471B8AE /* GJBrowserTransitionDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserTransitionDriver.m; sourceTree = "<group>"; };
 		9C42A4587F06B68482275F35E0617AA1 /* Pods-GJMMBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3DEC5D4554CF81DE1B7286438C543 /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYWebImage/YYWebImageOperation.m; sourceTree = "<group>"; };
-		9E1FAC8A969C94E5A627ADB1CF57AAE1 /* GJMultiMediaBrowserNavBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserNavBarView.h; sourceTree = "<group>"; };
-		9EE4CA299B1517667BA55DBD6FA60D13 /* GJMultiMediaBrowserNavBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserNavBarView.m; sourceTree = "<group>"; };
-		A68915EDFB5BBB7AF0B567B53739A102 /* GJMultiMediaBrowserDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserDelegate.h; sourceTree = "<group>"; };
-		AB0B854E6DBAD4313AE149374B368E32 /* GJMMBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMMBrowser-prefix.pch"; sourceTree = "<group>"; };
+		A5C4B454B2685F59865F9DB1D38853F3 /* GJMMBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJMMBrowser.debug.xcconfig; sourceTree = "<group>"; };
+		A5E1B37F406ADB8A4A98E10409970691 /* GJMMBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMMBrowser.h; path = GJMMBrowser/Classes/GJMMBrowser.h; sourceTree = "<group>"; };
 		ABCEC9DD17ABBBA3ACDC199C345465FE /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
+		ACEB9393DB0AA7FF0465440F78E502F7 /* GJBrowseTransitionParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowseTransitionParameter.h; path = GJMMBrowser/Classes/GJBrowseTransitionParameter.h; sourceTree = "<group>"; };
 		ACEC8EF46AC23E94313E927905BF8EA0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		AE20A1C5F3D51A025545F629F36B881D /* GJMMBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJMMBrowser-dummy.m"; sourceTree = "<group>"; };
+		AD54CA32F39E079B1A57F1CE6BF802A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ADB75F298BFE0350FFCA3FA201998F7E /* GJMMBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMMBrowser.m; path = GJMMBrowser/Classes/GJMMBrowser.m; sourceTree = "<group>"; };
+		B28E9200B45961FC3E4EED6FD827782E /* GJMultiMediaBrowserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserViewController.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserViewController.h; sourceTree = "<group>"; };
+		B377F58EDF2CDD8F17A12EBD4D0AAF3D /* GJBrowserPresentedAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowserPresentedAnimator.h; path = GJMMBrowser/Classes/GJBrowserPresentedAnimator.h; sourceTree = "<group>"; };
+		B42103CCE1FE50EE3CA7B960CE3C4F6C /* GJBrowserDismissedAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowserDismissedAnimator.h; path = GJMMBrowser/Classes/GJBrowserDismissedAnimator.h; sourceTree = "<group>"; };
 		B4A88601D6D9C993EA92B5F040535F0E /* YYFrameImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFrameImage.m; path = YYImage/YYFrameImage.m; sourceTree = "<group>"; };
+		B571E9AB5057330CD4F1791DE0132D0F /* GJMultiMediaResoucre.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaResoucre.h; path = GJMMBrowser/Classes/GJMultiMediaResoucre.h; sourceTree = "<group>"; };
 		B5B445AB9433BB4E67693292181A8260 /* Pods-GJMMBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMMBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7A45E7539C1906616DA07B6E2C0DE18 /* GJBrowseTransitionParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowseTransitionParameter.h; sourceTree = "<group>"; };
-		B80E487323FBE4BFA135B96A5C5E43EA /* GJMultiMediaBrowserZoomScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserZoomScrollView.m; sourceTree = "<group>"; };
+		B7A26DFAD1851F76B3DA03298DC3E9F3 /* GJMultiMediaBrowserHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaBrowserHelper.m; path = GJMMBrowser/Classes/GJMultiMediaBrowserHelper.m; sourceTree = "<group>"; };
 		B9C87701485C076ABF1DE3E0020DD256 /* YYWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-umbrella.h"; sourceTree = "<group>"; };
 		BB9156EA80E0352801992B21062E31D5 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YYWebImage.m"; path = "YYWebImage/Categories/UIButton+YYWebImage.m"; sourceTree = "<group>"; };
-		C641A775EB40649741F221E148637279 /* GJBrowserDismissedAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJBrowserDismissedAnimator.m; sourceTree = "<group>"; };
+		BC2A8FD803894B848D255F569610E9C0 /* GJMultiMediaBrowserCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaBrowserCollectionViewCell.m; path = GJMMBrowser/Classes/GJMultiMediaBrowserCollectionViewCell.m; sourceTree = "<group>"; };
+		BDEF394527B1ADB8D4EDF8DDD56186BB /* GJMMBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJMMBrowser-dummy.m"; sourceTree = "<group>"; };
+		BE262353C1C2DC32E518359868B16B5D /* GJBrowserTransitionDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJBrowserTransitionDriver.m; path = GJMMBrowser/Classes/GJBrowserTransitionDriver.m; sourceTree = "<group>"; };
+		C84B24CBC80EA8224EFB5ED8E1FB088E /* GJMultiMediaBrowserNavBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserNavBarView.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserNavBarView.h; sourceTree = "<group>"; };
 		C88CF45E6B6625006EE260E31FACF3E5 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
 		C977A2BB6FE8CDDE1FF08960D77A05EA /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		C9C2A063E2991AF25FD0FFA2EB1F7460 /* GJBrowserDismissedAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJBrowserDismissedAnimator.m; path = GJMMBrowser/Classes/GJBrowserDismissedAnimator.m; sourceTree = "<group>"; };
 		CC8ACCEA1B6F23DE7E3E8034ACAFD996 /* Pods-GJMMBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMMBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCBB8F32288BC3C4D883EC2A5B7D5A47 /* YYWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-prefix.pch"; sourceTree = "<group>"; };
 		CD1AFF93AFC14620220BA1AA223AC8DD /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
-		CDAF1E01910F40F6124414FB9479E354 /* GJMMBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMMBrowser-umbrella.h"; sourceTree = "<group>"; };
+		CD2E45F363B911D4EE5F96F331D8AF35 /* ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist"; sourceTree = "<group>"; };
 		CF132ED6080BDF9424BD0FAF74668761 /* Pods-GJMMBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJMMBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D01F8F98CCF22DB1794F479DD624D5B6 /* GJBrowseTransitionParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJBrowseTransitionParameter.m; path = GJMMBrowser/Classes/GJBrowseTransitionParameter.m; sourceTree = "<group>"; };
+		D2458F6D58243F7C6C62C5D64FEA3AE8 /* GJBrowserTransitionDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJBrowserTransitionDriver.h; path = GJMMBrowser/Classes/GJBrowserTransitionDriver.h; sourceTree = "<group>"; };
 		D36659EF7602269432A65BE9CA288A45 /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYWebImage/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
+		D48F52678F14CB727199DD69AAA55AB0 /* GJMMBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJMMBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D49C3F89B2412ED0A5E2FA78262E9EC1 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSpriteSheetImage.m; path = YYImage/YYSpriteSheetImage.m; sourceTree = "<group>"; };
 		D562EA0DC3C398E97C3114E7B76BF3EE /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		D6D334B4E02EB53B48E497B4C8A3B4FB /* GJMultiMediaBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaBrowserViewController.m; path = GJMMBrowser/Classes/GJMultiMediaBrowserViewController.m; sourceTree = "<group>"; };
+		D804F41B2426E2C1873E74194CED2F93 /* GJMultiMediaBrowserZoomScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJMultiMediaBrowserZoomScrollView.h; path = GJMMBrowser/Classes/GJMultiMediaBrowserZoomScrollView.h; sourceTree = "<group>"; };
 		D864016C09569D332CAF92BC792028F9 /* YYImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCoder.h; path = YYImage/YYImageCoder.h; sourceTree = "<group>"; };
-		DA75ED6F808F70AB88287E22C7053357 /* GJMultiMediaBrowserHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJMultiMediaBrowserHelper.m; sourceTree = "<group>"; };
 		DAFC642F16B02E492E064F4B6D452E8A /* YYImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-prefix.pch"; sourceTree = "<group>"; };
 		DC5AED6676495AD707487D100A2DE637 /* Pods-GJMMBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJMMBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DDE15FD6167FA90D81CBBF785FE441AA /* GJMultiMediaBrowserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJMultiMediaBrowserViewController.h; sourceTree = "<group>"; };
+		DD85507AAD4D11279B7CAFE9CCCEB5E1 /* GJMultiMediaBrowserNavBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJMultiMediaBrowserNavBarView.m; path = GJMMBrowser/Classes/GJMultiMediaBrowserNavBarView.m; sourceTree = "<group>"; };
 		DDEC5E993033D67A4F166BD4521EB6B9 /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYWebImage.m"; path = "YYWebImage/Categories/UIImage+YYWebImage.m"; sourceTree = "<group>"; };
-		E1E66A1B65BD39C5F8D7541F6250412E /* GJBrowserTranslator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJBrowserTranslator.h; sourceTree = "<group>"; };
 		E428B28E9807053736DCC4019780ECC3 /* YYCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.debug.xcconfig; sourceTree = "<group>"; };
 		EA9BE25BCE5FBEDEE893E3B564476943 /* YYImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-umbrella.h"; sourceTree = "<group>"; };
 		EC6313721C0109D13E9AD6D07EC6B104 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		EE7BDB60CE834B5D4737807FA870EACF /* GJMMBrowser-GJMMBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GJMMBrowser-GJMMBrowser"; path = GJMMBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1A243367D7E565663FD520EAD49D86 /* _YYWebImageSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _YYWebImageSetter.m; path = YYWebImage/Categories/_YYWebImageSetter.m; sourceTree = "<group>"; };
 		F032DAF195902490E1868040EC22D4C2 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYImage/YYImageCoder.m; sourceTree = "<group>"; };
+		F3637C2B3DC5F188F36CE5D9716C20F3 /* GJMMBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJMMBrowser.release.xcconfig; sourceTree = "<group>"; };
+		F564D619AB8B210AE7C62D7E8B4DC246 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F7930CE2E060D0B79803D3A564B8C936 /* Pods-GJMMBrowser_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GJMMBrowser_Tests"; path = Pods_GJMMBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83B522CF8538836AEFBCEB8CC77413F /* YYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImage.h; path = YYImage/YYImage.h; sourceTree = "<group>"; };
 		F9C0AD7C6F3B93971CC3E186FC8181F3 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAnimatedImageView.h; path = YYImage/YYAnimatedImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00904B09FC61283E07B103220FB9D589 /* Frameworks */ = {
+		04FC9D7B209440EC9552FDE827F78500 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7409149B460C375E4D8194006E13C236 /* CoreFoundation.framework in Frameworks */,
-				8C9F4690DE4855B067FA3DBBA1D088AE /* Foundation.framework in Frameworks */,
-				F49B8958DDF061ADCC57B25E4DF3B26F /* QuartzCore.framework in Frameworks */,
-				17D3472BDF35A8B15C5A5A08B849E4A1 /* UIKit.framework in Frameworks */,
+				0940DA8972FC545783F672ACF8014882 /* CoreFoundation.framework in Frameworks */,
+				A1EB500453B3802DE406A32214AED9B3 /* Foundation.framework in Frameworks */,
+				7A85E3D01A67B6A9F5D8EA54129E31F4 /* QuartzCore.framework in Frameworks */,
+				50C861A25228D019BD55DEC2074E1F1F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,33 +337,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45E325B377E5F19D475BCEA77B77248A /* Frameworks */ = {
+		6171352B2426667DBCD89C5C3AC11017 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548B68E3766AB0D1CEAFD83850A812CE /* Accelerate.framework in Frameworks */,
-				F4E1574D61C8FBC944C19A9FEC77DBED /* AssetsLibrary.framework in Frameworks */,
-				60A0CD790A3C88C91091EA7D07CFEE2F /* CoreFoundation.framework in Frameworks */,
-				0FBC57B8B5C737D999A26A5F763FE249 /* Foundation.framework in Frameworks */,
-				3ADFBC320B95ABADA697753D4316EE6C /* ImageIO.framework in Frameworks */,
-				AE5FCE247D3028E967DCF7FF27E107EE /* MobileCoreServices.framework in Frameworks */,
-				E459AB5A56223818583F8C38CBFC868D /* QuartzCore.framework in Frameworks */,
-				71854197FA7301D72C87A31149E6FA56 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59AAB16968E12EC7BFDBD98A34E2EBE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C7E5C4F17E5CEC37D6D32E4D93EBD8E /* Accelerate.framework in Frameworks */,
-				584634B3C85E8C3D13FF2D1EE200815E /* AssetsLibrary.framework in Frameworks */,
-				73A35245D1686211746FC3D54BC17179 /* CoreFoundation.framework in Frameworks */,
-				9E69003637C72DA2E561B4D931066731 /* Foundation.framework in Frameworks */,
-				EB5A3CCA44F9D7110854B1F13FD7A9B8 /* ImageIO.framework in Frameworks */,
-				EAFC5609224DE30FCEC146B8FEA0EE4C /* MobileCoreServices.framework in Frameworks */,
-				7DFAA53799D0F5FB7CBF0CC33DB9B16C /* QuartzCore.framework in Frameworks */,
-				98F3516D45AC67E08AB3DEB75E1F1EEF /* UIKit.framework in Frameworks */,
+				AAD889A526585DF122EFC82B0405193C /* Accelerate.framework in Frameworks */,
+				FDBDB9D9BC102BEC50C56B4EFCA0B013 /* AssetsLibrary.framework in Frameworks */,
+				649EC01856B2F0AEDDA7C32BC91B44A4 /* CoreFoundation.framework in Frameworks */,
+				0BB27547687C9AD3AE9E4B92FFCBD5F9 /* Foundation.framework in Frameworks */,
+				AA8A231FE9ADAC8857C27F9F4BF2CDEA /* ImageIO.framework in Frameworks */,
+				0BA96588FF7FE637C56A47C980C53E32 /* MobileCoreServices.framework in Frameworks */,
+				8F5EC44A73EE9B393FBECA79B2C927EC /* QuartzCore.framework in Frameworks */,
+				EFCFB83EA1985EC5E0D2AE647E11FBB0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +360,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907057100CCB0B0FBC93FB1C81A4D211 /* Frameworks */ = {
+		9C3E6FCC601BB5D189885DC989EF01FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90E817613FD579273328661E72E486D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0BCD11012B7595275BB3B9C6833B99 /* Accelerate.framework in Frameworks */,
+				F7718601F8596F348EE52F8CA68E91DD /* AssetsLibrary.framework in Frameworks */,
+				9D78BEAF1BAFA1868B9D28756BBD0E73 /* CoreFoundation.framework in Frameworks */,
+				7E2D1AD97B7E28E75CBAB8250CD95E21 /* Foundation.framework in Frameworks */,
+				FD94368C5D005C737A275F4392D529D1 /* ImageIO.framework in Frameworks */,
+				0ABC3DC58CE72F7A9FF3164DC2396DCE /* MobileCoreServices.framework in Frameworks */,
+				7B5D8EFD68B981A92BADFD6A9D5F7B40 /* QuartzCore.framework in Frameworks */,
+				69BEA477F5E76E98CFA7172240830610 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,36 +402,42 @@
 			path = "Target Support Files/Pods-GJMMBrowser_Example";
 			sourceTree = "<group>";
 		};
-		16E15114BD02A7172A0CEB6C23711CC2 /* Translator */ = {
+		0F86FF10291FDA976BB33E62EBE2856B /* GJMMBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				0D0FEE66844FE2587AAD238CAD46C18C /* GJBrowserDataConverter.h */,
-				4B63EB8B88FFC8E73F7D31CFEBB08B69 /* GJBrowserDataConverter.m */,
-				52BAB4436F94D90683D6DEE806AE5D60 /* GJBrowserDismissedAnimator.h */,
-				C641A775EB40649741F221E148637279 /* GJBrowserDismissedAnimator.m */,
-				755D7E41A051111733FE7314F1D6BB91 /* GJBrowserPresentedAnimator.h */,
-				04230CBBFE3B5988B6B57664A785AFCD /* GJBrowserPresentedAnimator.m */,
-				342E1C8F95249E2E657B9597AE7EEE48 /* GJBrowserTransitionDriver.h */,
-				99D02AF6CE6C8A8122E7FA0B7471B8AE /* GJBrowserTransitionDriver.m */,
-				E1E66A1B65BD39C5F8D7541F6250412E /* GJBrowserTranslator.h */,
-				8516DFEA7366B9397B4DA94776AA414C /* GJBrowserTranslator.m */,
-				B7A45E7539C1906616DA07B6E2C0DE18 /* GJBrowseTransitionParameter.h */,
-				8D88ACBBE447826B247735ACE58A3AA3 /* GJBrowseTransitionParameter.m */,
-				0508AA147E492F097283AF669D73ABB2 /* GJMultiMediaResoucre.h */,
-				147DE19CC206F8A5490B33CA58EF5340 /* GJMultiMediaResoucre.m */,
+				88B959245C9E6FA840D8C47322797100 /* GJBrowserDataConverter.h */,
+				88365DB5B5558F8CB0038F5D3CEE7143 /* GJBrowserDataConverter.m */,
+				B42103CCE1FE50EE3CA7B960CE3C4F6C /* GJBrowserDismissedAnimator.h */,
+				C9C2A063E2991AF25FD0FFA2EB1F7460 /* GJBrowserDismissedAnimator.m */,
+				B377F58EDF2CDD8F17A12EBD4D0AAF3D /* GJBrowserPresentedAnimator.h */,
+				5C0422B0E7888083C46A5FB8D5FC56E4 /* GJBrowserPresentedAnimator.m */,
+				D2458F6D58243F7C6C62C5D64FEA3AE8 /* GJBrowserTransitionDriver.h */,
+				BE262353C1C2DC32E518359868B16B5D /* GJBrowserTransitionDriver.m */,
+				47A1A100A1386839810C438EDD4A19F0 /* GJBrowserTranslator.h */,
+				31DC0F9B7CAAF31FF7911B5C25C539BB /* GJBrowserTranslator.m */,
+				ACEB9393DB0AA7FF0465440F78E502F7 /* GJBrowseTransitionParameter.h */,
+				D01F8F98CCF22DB1794F479DD624D5B6 /* GJBrowseTransitionParameter.m */,
+				A5E1B37F406ADB8A4A98E10409970691 /* GJMMBrowser.h */,
+				ADB75F298BFE0350FFCA3FA201998F7E /* GJMMBrowser.m */,
+				8E7C5950B6A8B00CD66AB5528B174872 /* GJMultiMediaBrowserCollectionViewCell.h */,
+				BC2A8FD803894B848D255F569610E9C0 /* GJMultiMediaBrowserCollectionViewCell.m */,
+				235395F284BBA8B9ED159B686851F19D /* GJMultiMediaBrowserDelegate.h */,
+				9173D878D7929189082D9316BFC0DE74 /* GJMultiMediaBrowserHelper.h */,
+				B7A26DFAD1851F76B3DA03298DC3E9F3 /* GJMultiMediaBrowserHelper.m */,
+				C84B24CBC80EA8224EFB5ED8E1FB088E /* GJMultiMediaBrowserNavBarView.h */,
+				DD85507AAD4D11279B7CAFE9CCCEB5E1 /* GJMultiMediaBrowserNavBarView.m */,
+				B28E9200B45961FC3E4EED6FD827782E /* GJMultiMediaBrowserViewController.h */,
+				D6D334B4E02EB53B48E497B4C8A3B4FB /* GJMultiMediaBrowserViewController.m */,
+				1173EECA6A770E9EDBC01364A88BE218 /* GJMultiMediaBrowserViewControllerDelegate.h */,
+				D804F41B2426E2C1873E74194CED2F93 /* GJMultiMediaBrowserZoomScrollView.h */,
+				605F1D28440052EBF248ABEC4FF0FD1B /* GJMultiMediaBrowserZoomScrollView.m */,
+				B571E9AB5057330CD4F1791DE0132D0F /* GJMultiMediaResoucre.h */,
+				45C9772619E6B0C4A195694EC90BFE76 /* GJMultiMediaResoucre.m */,
+				3E74E70DC9D3B18D621A40D0A7034E4D /* Pod */,
+				D87B3A9BA09204C993853FC050D83ADD /* Support Files */,
 			);
-			name = Translator;
-			path = GJMMBrowser/Classes/Translator;
-			sourceTree = "<group>";
-		};
-		18E39F3781F2EC581540EB665ECB0FFF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4DD47B86F68AA81490275B2499D43784 /* GJMMBrowser.podspec */,
-				62DAC7E60E8498EF62EB60C644ECB6B1 /* LICENSE */,
-				4407BD2204026DC672719516B97EBE01 /* README.md */,
-			);
-			name = Pod;
+			name = GJMMBrowser;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		229F37FF25EAA80CA3A8B3608D5CF513 /* Targets Support Files */ = {
@@ -468,6 +474,16 @@
 			path = YYImage;
 			sourceTree = "<group>";
 		};
+		3E74E70DC9D3B18D621A40D0A7034E4D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D48F52678F14CB727199DD69AAA55AB0 /* GJMMBrowser.podspec */,
+				AD54CA32F39E079B1A57F1CE6BF802A6 /* LICENSE */,
+				F564D619AB8B210AE7C62D7E8B4DC246 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		4BAF4514C1225F837F25C62B186F0121 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,14 +501,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		4D79DE04574CB1AD2BD28AB9D18D0BD1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA1BC57E1BAA688791EF2644AE3E5DC5 /* GJMMBrowser */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		4E1A639554D4CE9D815B9F7510DFD1B6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -506,6 +514,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YYCache";
+			sourceTree = "<group>";
+		};
+		5A7A5D5601FF5AD5645726ABF5EA3A6E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F86FF10291FDA976BB33E62EBE2856B /* GJMMBrowser */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		80FBA4895098DD0A43CC00A31A496C5F /* YYCache */ = {
@@ -556,42 +572,32 @@
 			path = "../Target Support Files/YYWebImage";
 			sourceTree = "<group>";
 		};
-		B7EA2EC64BE80E8FF103E3041BC05A81 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1E376DCD62F415441D2D22DD0F8892D7 /* GJMMBrowser.modulemap */,
-				AE20A1C5F3D51A025545F629F36B881D /* GJMMBrowser-dummy.m */,
-				200538B4E0BFA1700447BA23C57620F9 /* GJMMBrowser-Info.plist */,
-				AB0B854E6DBAD4313AE149374B368E32 /* GJMMBrowser-prefix.pch */,
-				CDAF1E01910F40F6124414FB9479E354 /* GJMMBrowser-umbrella.h */,
-				8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */,
-				106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */,
-				6CED6521E0637739ED4477CDF41B6224 /* ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GJMMBrowser";
-			sourceTree = "<group>";
-		};
-		BBD00E1FD43A16978218E0EB785BDAFF /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				2411EB0E03BD72BDA204B6E6BEDE19A6 /* GJMultiMediaBrowserHelper.h */,
-				DA75ED6F808F70AB88287E22C7053357 /* GJMultiMediaBrowserHelper.m */,
-			);
-			name = Helper;
-			path = GJMMBrowser/Classes/Helper;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4D79DE04574CB1AD2BD28AB9D18D0BD1 /* Development Pods */,
+				5A7A5D5601FF5AD5645726ABF5EA3A6E /* Development Pods */,
 				F119B4A0ABE017AECEE69836596133B2 /* Frameworks */,
 				FC245D0D6439743884D20FB8175242B1 /* Pods */,
 				FEA7BD80DAD6B4A00A6206A480B99C43 /* Products */,
 				229F37FF25EAA80CA3A8B3608D5CF513 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D87B3A9BA09204C993853FC050D83ADD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70BE9B426C2F35E215FEA12602217872 /* GJMMBrowser.modulemap */,
+				BDEF394527B1ADB8D4EDF8DDD56186BB /* GJMMBrowser-dummy.m */,
+				2F1A54A17C4B2A8C4E2BF707E4BA8A62 /* GJMMBrowser-Info.plist */,
+				5682F1B32AAFEC2A0CA06AD67C646CBC /* GJMMBrowser-prefix.pch */,
+				7CBD4FF6A109B5ED8D7C0EF5560B6284 /* GJMMBrowser-umbrella.h */,
+				A5C4B454B2685F59865F9DB1D38853F3 /* GJMMBrowser.debug.xcconfig */,
+				F3637C2B3DC5F188F36CE5D9716C20F3 /* GJMMBrowser.release.xcconfig */,
+				CD2E45F363B911D4EE5F96F331D8AF35 /* ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GJMMBrowser";
 			sourceTree = "<group>";
 		};
 		DBF059662C049C96585E3FFA74F53A94 /* YYWebImage */ = {
@@ -622,54 +628,12 @@
 			path = YYWebImage;
 			sourceTree = "<group>";
 		};
-		E81CFFEB11D378A948A543D7814F8B96 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				A68915EDFB5BBB7AF0B567B53739A102 /* GJMultiMediaBrowserDelegate.h */,
-				15D5DDD42FA9C798F9822B7422F64ED3 /* GJMultiMediaBrowserViewControllerDelegate.h */,
-			);
-			name = Protocol;
-			path = GJMMBrowser/Classes/Protocol;
-			sourceTree = "<group>";
-		};
-		EA1BC57E1BAA688791EF2644AE3E5DC5 /* GJMMBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				96BF5A5394805A492AA1234A31B25EAC /* GJMMBrowser.h */,
-				34BFEB7B008C64A56EE671D37D35F6F4 /* GJMMBrowser.m */,
-				BBD00E1FD43A16978218E0EB785BDAFF /* Helper */,
-				18E39F3781F2EC581540EB665ECB0FFF /* Pod */,
-				E81CFFEB11D378A948A543D7814F8B96 /* Protocol */,
-				B7EA2EC64BE80E8FF103E3041BC05A81 /* Support Files */,
-				16E15114BD02A7172A0CEB6C23711CC2 /* Translator */,
-				F5C7BD2A0D7CDCF980B6F1CBBBD857AA /* View */,
-			);
-			name = GJMMBrowser;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		F119B4A0ABE017AECEE69836596133B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FB263022BED8951BD93C3F5C9413E4A3 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F5C7BD2A0D7CDCF980B6F1CBBBD857AA /* View */ = {
-			isa = PBXGroup;
-			children = (
-				424E3EC9F99CD4D4A12EE78669251414 /* GJMultiMediaBrowserCollectionViewCell.h */,
-				83FF1EEE5F77BDCD83F764C927099EAC /* GJMultiMediaBrowserCollectionViewCell.m */,
-				9E1FAC8A969C94E5A627ADB1CF57AAE1 /* GJMultiMediaBrowserNavBarView.h */,
-				9EE4CA299B1517667BA55DBD6FA60D13 /* GJMultiMediaBrowserNavBarView.m */,
-				DDE15FD6167FA90D81CBBF785FE441AA /* GJMultiMediaBrowserViewController.h */,
-				6739A46323E471F4CB5059D83C39A808 /* GJMultiMediaBrowserViewController.m */,
-				2F56E57EB347CD8FA811B8584C18F25E /* GJMultiMediaBrowserZoomScrollView.h */,
-				B80E487323FBE4BFA135B96A5C5E43EA /* GJMultiMediaBrowserZoomScrollView.m */,
-			);
-			name = View;
-			path = GJMMBrowser/Classes/View;
 			sourceTree = "<group>";
 		};
 		FB263022BED8951BD93C3F5C9413E4A3 /* iOS */ = {
@@ -714,15 +678,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		021E7D7FFBEFBC4658FA6C5A812D176C /* Headers */ = {
+		0D9BEF4A2FE70F70A976442EB163D6FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F66E1233CACA7303A18976F81E26594 /* YYCache.h in Headers */,
-				5D828A241F7F2E57B2B2670438069BAD /* YYCache-umbrella.h in Headers */,
-				96D134897DC717FE9846F4D9E3C8D1C3 /* YYDiskCache.h in Headers */,
-				BF67D925204487F1603C09D820C322DB /* YYKVStorage.h in Headers */,
-				9D6D130D135FF2116FB721B1D209CFE9 /* YYMemoryCache.h in Headers */,
+				654C6647699B10AD5ABF3360B03379BC /* GJBrowserDataConverter.h in Headers */,
+				7811C127660155D4D29D6F60C231C8C3 /* GJBrowserDismissedAnimator.h in Headers */,
+				71831F81E939339C2AA9699660E58DC6 /* GJBrowserPresentedAnimator.h in Headers */,
+				450893F4C04CD065A6A6C2BBB91D9984 /* GJBrowserTransitionDriver.h in Headers */,
+				4B906F9C8353C9DDB333D36A9CB2265F /* GJBrowserTranslator.h in Headers */,
+				A12DEB4766A0FB4ED1535EEF1A46E59A /* GJBrowseTransitionParameter.h in Headers */,
+				B3762A2204671F1F2EB36AEAE85D9286 /* GJMMBrowser.h in Headers */,
+				8CA05EB5413F007AA2FFDB30CA876150 /* GJMMBrowser-umbrella.h in Headers */,
+				74874D5D8E51954F9882F73CD6548C94 /* GJMultiMediaBrowserCollectionViewCell.h in Headers */,
+				4F1CE42E39202EB807A7368AB4E63189 /* GJMultiMediaBrowserDelegate.h in Headers */,
+				1B126C0E4CDE6E28C141DC837FB8C511 /* GJMultiMediaBrowserHelper.h in Headers */,
+				912BD1CF57352D7EBC4B9747C6572CD8 /* GJMultiMediaBrowserNavBarView.h in Headers */,
+				11BDBB1AE79308F834AD5DC7F584A947 /* GJMultiMediaBrowserViewController.h in Headers */,
+				C83AF9B636399F3BB7F62C9DC03DEE7B /* GJMultiMediaBrowserViewControllerDelegate.h in Headers */,
+				CD47A31A13FBCB2BD6AE6FDC93DA4DAC /* GJMultiMediaBrowserZoomScrollView.h in Headers */,
+				0C77E22D5665E46627CF7A2F4DB671EE /* GJMultiMediaResoucre.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18190AFFF1891066DD10C27E8F88A51F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC02DC97FF2D37E299220A27B7723C /* YYCache.h in Headers */,
+				D21F47F354C64A6FB486454E6B11EEE8 /* YYCache-umbrella.h in Headers */,
+				04C4C339B2FBFE32899C78A2CAE47C90 /* YYDiskCache.h in Headers */,
+				A70E8CB60EE90C1B9AFFC001D28D55DB /* YYKVStorage.h in Headers */,
+				8211D23C294DC5A678B08F8BC665785B /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,57 +729,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7773ABCD31977B871EAC68B111A10637 /* Headers */ = {
+		C688417D194E0C58D6C4B48ADA79F233 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77697F5E6D83BBC6FD95DBF0B4A266BF /* YYAnimatedImageView.h in Headers */,
-				29A9C41A13DCE96900CD5C5A1BB93CCD /* YYFrameImage.h in Headers */,
-				67DFA78A2F503678C97605C817729A71 /* YYImage.h in Headers */,
-				C3EA2A5BE18CF4C5685A6E9D761E60BF /* YYImage-umbrella.h in Headers */,
-				7BA62DE653370AF744E8004EF4FE89EB /* YYImageCoder.h in Headers */,
-				55165350C24FA4AFE68DFB098FA71728 /* YYSpriteSheetImage.h in Headers */,
+				A667F60BB65340CDF69939A0BFA62943 /* YYAnimatedImageView.h in Headers */,
+				7E02B4903EF3AB2BAA67245C10343C86 /* YYFrameImage.h in Headers */,
+				462A7141FBFEC2F9400938CB754C25F8 /* YYImage.h in Headers */,
+				9E0CB25A6731A5D7C0674A68ACD4BF5E /* YYImage-umbrella.h in Headers */,
+				781A60BDAB75B8877C54EB72386F0DBB /* YYImageCoder.h in Headers */,
+				29319B1A0DF4BD230CCD5EDF2BC53F51 /* YYSpriteSheetImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94FFA4B7F6011242CF5CFC4A3A376A4D /* Headers */ = {
+		D9A39F841D64ED41FB1AE4DBFAED0BB6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9071F9281B51B650D3BF6D567AB7113 /* _YYWebImageSetter.h in Headers */,
-				26B6A55C2EAA08CDD51396228872653D /* CALayer+YYWebImage.h in Headers */,
-				E28136EDD947434EF11D5A24902DEE09 /* MKAnnotationView+YYWebImage.h in Headers */,
-				FCA36E628B3988C5DB8E970409DD3373 /* UIButton+YYWebImage.h in Headers */,
-				F81486EF494E232621A8DA34C29EA44E /* UIImage+YYWebImage.h in Headers */,
-				566E652DF33A99ECF5C74F54FD00B40E /* UIImageView+YYWebImage.h in Headers */,
-				91574E857D5281E58F399B3770633D3B /* YYImageCache.h in Headers */,
-				2ADE7536F8B70044B6EFA5C8CA3E9E34 /* YYWebImage.h in Headers */,
-				6794AEA3300C4C490913419BEF8C836A /* YYWebImage-umbrella.h in Headers */,
-				09EEC7E78260CA86731DDCD5FF9CB890 /* YYWebImageManager.h in Headers */,
-				4F23B2729D94389B7173FB12D8DBBE52 /* YYWebImageOperation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7F10C41F986A61BE5F74E9F428170D5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E98E8351DDEE692A86065C1DB60A129B /* GJBrowserDataConverter.h in Headers */,
-				4F0F412FC47FAA7F2FA6CFD7D47FAC07 /* GJBrowserDismissedAnimator.h in Headers */,
-				8772FB911433CC61C6CAC91E7F3B8C41 /* GJBrowserPresentedAnimator.h in Headers */,
-				C6D71E3D655AC6DF4287B0A8BB75C4FC /* GJBrowserTransitionDriver.h in Headers */,
-				34DFAB181334D58315B01A08E77EBAC6 /* GJBrowserTranslator.h in Headers */,
-				C85BB55CC23D7F3C29E339EAEA4D2EA3 /* GJBrowseTransitionParameter.h in Headers */,
-				15679DECBED441DBDFD128F89C03AFA1 /* GJMMBrowser.h in Headers */,
-				4953834FD32F32B9975B12258E0AF3BA /* GJMMBrowser-umbrella.h in Headers */,
-				7875574594BD57229664C4FCC2F7465B /* GJMultiMediaBrowserCollectionViewCell.h in Headers */,
-				54177545E50E72604B6884B70B74592C /* GJMultiMediaBrowserDelegate.h in Headers */,
-				30B684D5255300C1C9610068205B0198 /* GJMultiMediaBrowserHelper.h in Headers */,
-				6209A37FFD7DECB42B290BF66EB16D4A /* GJMultiMediaBrowserNavBarView.h in Headers */,
-				E59F3923D9905B0F4830E7C6A6846253 /* GJMultiMediaBrowserViewController.h in Headers */,
-				CC5E57F47284D6474D3D6D03C9075244 /* GJMultiMediaBrowserViewControllerDelegate.h in Headers */,
-				13491A32E1548E430BBB1E7D185A33C9 /* GJMultiMediaBrowserZoomScrollView.h in Headers */,
-				BCEAFCDDEA303533B304A5D480D898E7 /* GJMultiMediaResoucre.h in Headers */,
+				D1E8863BDAD0758418B5D0E577D83F96 /* _YYWebImageSetter.h in Headers */,
+				94CAD85D9B14ED8A1C57F69CFD3A2172 /* CALayer+YYWebImage.h in Headers */,
+				0740E342DD87E335443F975C50B08CE0 /* MKAnnotationView+YYWebImage.h in Headers */,
+				593405EBC525C079396473332A6DE80C /* UIButton+YYWebImage.h in Headers */,
+				A1DF3BBC10AB6652DF762CC023281EB0 /* UIImage+YYWebImage.h in Headers */,
+				357EE7DDC9245A536430571DF89DA244 /* UIImageView+YYWebImage.h in Headers */,
+				9361B948671FCDCD980B9AABD6BA90A7 /* YYImageCache.h in Headers */,
+				71F3D524DDDABA023B430D3016697BAD /* YYWebImage.h in Headers */,
+				AFCA165FF158BC506427B8173C45A625 /* YYWebImage-umbrella.h in Headers */,
+				3489E674C7F4138AE8D31C32A1ADDD37 /* YYWebImageManager.h in Headers */,
+				3EB1A74CB9F7C156E8C508321AEF9538 /* YYWebImageOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,10 +775,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				1A82D99B6C1057FBEFE81ABB294B2D47 /* PBXTargetDependency */,
-				F1805891B4B49ABD9258AF0E46D605D4 /* PBXTargetDependency */,
-				BEFB9E4C4BF6A4108F8ABA2184553D80 /* PBXTargetDependency */,
-				94DC94EAC384DC12C89DF410E1ADEB04 /* PBXTargetDependency */,
+				4FA1F697B0B95FE904B15B7F3362102D /* PBXTargetDependency */,
+				37B7109938ACCC4271414E3A1B221DF3 /* PBXTargetDependency */,
+				23D247860868F07ED05ADFB764ACDB5F /* PBXTargetDependency */,
+				E040BDFCDC932299518C9377F74542E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-GJMMBrowser_Example";
 			productName = Pods_GJMMBrowser_Example;
@@ -823,18 +787,18 @@
 		};
 		488E8C830C5A5694EE916251B9ADAADA /* YYWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 773D85314ED4E515038BA667E1D3E6C2 /* Build configuration list for PBXNativeTarget "YYWebImage" */;
+			buildConfigurationList = 7FA7C59FDD59E941CD089A87B1CF203B /* Build configuration list for PBXNativeTarget "YYWebImage" */;
 			buildPhases = (
-				94FFA4B7F6011242CF5CFC4A3A376A4D /* Headers */,
-				EC039B215680AE3A75C6FAA14836D909 /* Sources */,
-				59AAB16968E12EC7BFDBD98A34E2EBE8 /* Frameworks */,
-				0AE0220C76E0319D9B2679EAD18081BE /* Resources */,
+				D9A39F841D64ED41FB1AE4DBFAED0BB6 /* Headers */,
+				F157330C5CAE5472D82724E60781CDD0 /* Sources */,
+				D90E817613FD579273328661E72E486D /* Frameworks */,
+				69469C3D60031154DD1F906E7161B166 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE20F5A8ABD02BB2E3825BF4D4F37333 /* PBXTargetDependency */,
-				7153428E3BBB63B2B5CA0197811F3060 /* PBXTargetDependency */,
+				87E53884C82C5D380E2C54419E8D9F4C /* PBXTargetDependency */,
+				E37FAB4A1A14AFD79EF4608AAEAE8D2B /* PBXTargetDependency */,
 			);
 			name = YYWebImage;
 			productName = YYWebImage;
@@ -853,7 +817,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BCE43E70A7BB8A918818C04FBAC094D9 /* PBXTargetDependency */,
+				43F35A947E4CF4EA40101AE51244FF9C /* PBXTargetDependency */,
 			);
 			name = "Pods-GJMMBrowser_Tests";
 			productName = Pods_GJMMBrowser_Tests;
@@ -862,11 +826,11 @@
 		};
 		64036C4B20DD62D7AAA6A0AA11B8FB47 /* GJMMBrowser-GJMMBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3B799A8E09AFF422FDB8B483E1AE9D3 /* Build configuration list for PBXNativeTarget "GJMMBrowser-GJMMBrowser" */;
+			buildConfigurationList = 2739961BA0807F0762489BD99ECD7274 /* Build configuration list for PBXNativeTarget "GJMMBrowser-GJMMBrowser" */;
 			buildPhases = (
-				353ABF718011A7E953B697AA1B125AAD /* Sources */,
-				907057100CCB0B0FBC93FB1C81A4D211 /* Frameworks */,
-				94575E4A981BA9A523F39BDC570325AB /* Resources */,
+				16E743C8DF7AFDD8EC70F375CF72EF04 /* Sources */,
+				9C3E6FCC601BB5D189885DC989EF01FE /* Frameworks */,
+				4D6351A818988E746B6FC4C896721445 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -879,12 +843,12 @@
 		};
 		822E44240F2922DAB12018A6B649BD19 /* YYImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98019D9FD781029FD06DF36EA702C43E /* Build configuration list for PBXNativeTarget "YYImage" */;
+			buildConfigurationList = EEBC9B1F82E5ECB80C13E2B120F06318 /* Build configuration list for PBXNativeTarget "YYImage" */;
 			buildPhases = (
-				7773ABCD31977B871EAC68B111A10637 /* Headers */,
-				BE1E759ECA5C163E52E92FAE8A6357A9 /* Sources */,
-				45E325B377E5F19D475BCEA77B77248A /* Frameworks */,
-				A044CC82F73787ABCFA6166B3313F822 /* Resources */,
+				C688417D194E0C58D6C4B48ADA79F233 /* Headers */,
+				203AE2EC7D345FCD9705B04E8BCF93B8 /* Sources */,
+				6171352B2426667DBCD89C5C3AC11017 /* Frameworks */,
+				8FE9AA1DFD8E1F54B2FFFD9431F5E847 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -899,16 +863,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F58BC1C4A8A403FF0C4633DEF0FB78AD /* Build configuration list for PBXNativeTarget "GJMMBrowser" */;
 			buildPhases = (
-				E7F10C41F986A61BE5F74E9F428170D5 /* Headers */,
-				3F84B78392C5F27C836B0DE2358F6912 /* Sources */,
+				0D9BEF4A2FE70F70A976442EB163D6FB /* Headers */,
+				98340404B6934DEC85A0BA75CC259CF6 /* Sources */,
 				0EFCE6AB39D9CBE375BF8D8804842145 /* Frameworks */,
 				67412B8133B09886F8A1F7D3C4F73D23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9684E907C74CCC2D5434974231218CE /* PBXTargetDependency */,
-				F55B54815DC72E0BA4579B2398AAA1B5 /* PBXTargetDependency */,
+				BA7FF30382622602BE4F33739A4DF0E8 /* PBXTargetDependency */,
+				2A1B5887E54FED1FDBF3A35266F7C0E6 /* PBXTargetDependency */,
 			);
 			name = GJMMBrowser;
 			productName = GJMMBrowser;
@@ -917,12 +881,12 @@
 		};
 		CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68C71C0B072BF68EBC1ACF7C3E5D2143 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = 9E1D223D65102C4B3E68179EB846F7BA /* Build configuration list for PBXNativeTarget "YYCache" */;
 			buildPhases = (
-				021E7D7FFBEFBC4658FA6C5A812D176C /* Headers */,
-				8697A6A96CACD5B11198B40009640FB0 /* Sources */,
-				00904B09FC61283E07B103220FB9D589 /* Frameworks */,
-				BC4F6CADE1CD963C99AD8D33834A06A6 /* Resources */,
+				18190AFFF1891066DD10C27E8F88A51F /* Headers */,
+				A28C325B7225277BF53D8EF26352764C /* Sources */,
+				04FC9D7B209440EC9552FDE827F78500 /* Frameworks */,
+				73889A0503885A1C8E68F37864414C75 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -967,7 +931,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0AE0220C76E0319D9B2679EAD18081BE /* Resources */ = {
+		4D6351A818988E746B6FC4C896721445 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -982,6 +946,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69469C3D60031154DD1F906E7161B166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73889A0503885A1C8E68F37864414C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C1E4FC405A621E7FD350EEB43B8B684 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -989,21 +967,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94575E4A981BA9A523F39BDC570325AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A044CC82F73787ABCFA6166B3313F822 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC4F6CADE1CD963C99AD8D33834A06A6 /* Resources */ = {
+		8FE9AA1DFD8E1F54B2FFFD9431F5E847 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1028,31 +992,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		353ABF718011A7E953B697AA1B125AAD /* Sources */ = {
+		16E743C8DF7AFDD8EC70F375CF72EF04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F84B78392C5F27C836B0DE2358F6912 /* Sources */ = {
+		203AE2EC7D345FCD9705B04E8BCF93B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC118BD6A468804E3A60D7AA6D7D2FD /* GJBrowserDataConverter.m in Sources */,
-				48F3F3BDDBA09141EB82296626BAD946 /* GJBrowserDismissedAnimator.m in Sources */,
-				43013DCD1BCFA53E13D620CD9019C22C /* GJBrowserPresentedAnimator.m in Sources */,
-				E285EB0BDA28106CC6F8C6D0280C6ABF /* GJBrowserTransitionDriver.m in Sources */,
-				40F8EE977D31A470D8F8A1BF1ECDC8B8 /* GJBrowserTranslator.m in Sources */,
-				23F46799F7DD3CE22EF23EE8714B1118 /* GJBrowseTransitionParameter.m in Sources */,
-				238C478E16E62ED68D5392EDAE858AC9 /* GJMMBrowser.m in Sources */,
-				A1A73DD7FC3620785C5F86E25282019F /* GJMMBrowser-dummy.m in Sources */,
-				FB0C40A1FB48F97AE20AE79B6D4EFD44 /* GJMultiMediaBrowserCollectionViewCell.m in Sources */,
-				47D1B813116812CF3F5D102783E927AA /* GJMultiMediaBrowserHelper.m in Sources */,
-				6631E1D5554D3E0857C5AC3751A2C731 /* GJMultiMediaBrowserNavBarView.m in Sources */,
-				15D2475842F2798345AEA5B60F90AFF5 /* GJMultiMediaBrowserViewController.m in Sources */,
-				351C552B28F6DF64B6C5D624FDCEB681 /* GJMultiMediaBrowserZoomScrollView.m in Sources */,
-				25BF3A9271CD3599B859A39AD46AF51A /* GJMultiMediaResoucre.m in Sources */,
+				5174D3700F4CC0D4A07E8C4AAD41F1DF /* YYAnimatedImageView.m in Sources */,
+				686EA5FC557EA3A9B9B3172787D52B3E /* YYFrameImage.m in Sources */,
+				359DB6140DDC72B4C179241E33076A66 /* YYImage.m in Sources */,
+				1EA364FFF3EA2F4CA3036A85F5AB3A31 /* YYImage-dummy.m in Sources */,
+				78899A91676F45DDD7D3B7E4708C87A1 /* YYImageCoder.m in Sources */,
+				797BCB35EAA30AF2D5E0843719A02062 /* YYSpriteSheetImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,139 +1020,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8697A6A96CACD5B11198B40009640FB0 /* Sources */ = {
+		98340404B6934DEC85A0BA75CC259CF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF79271C128D4DE8BD00B0E65DF18724 /* YYCache.m in Sources */,
-				6EC9E5B74CB619352EC566676EB12DDA /* YYCache-dummy.m in Sources */,
-				182FA5A6BE9C82CF2BC8BF93A7896DAF /* YYDiskCache.m in Sources */,
-				34B24A877B4094B5CCD3910B39290067 /* YYKVStorage.m in Sources */,
-				BCD6CDF74450346F8C1C05E538BC315A /* YYMemoryCache.m in Sources */,
+				0133499AB41707F99614B4F9752EEFBA /* GJBrowserDataConverter.m in Sources */,
+				1B843CDEF34BF05DB7475AEAD9C894E4 /* GJBrowserDismissedAnimator.m in Sources */,
+				98482899D73B4F94F68D18BE3D4FD6DF /* GJBrowserPresentedAnimator.m in Sources */,
+				C0DE6ABD4D7A181D703350368CB6E41F /* GJBrowserTransitionDriver.m in Sources */,
+				5D5F4B5A1806D537BE0F929C874AA6A5 /* GJBrowserTranslator.m in Sources */,
+				ADC628D2B616BE195DB0D5267E045980 /* GJBrowseTransitionParameter.m in Sources */,
+				7C9A9BD50C689DF442695DAA07EF1E07 /* GJMMBrowser.m in Sources */,
+				CB54E66F9BC1244F73212740FD2104F5 /* GJMMBrowser-dummy.m in Sources */,
+				106E702BA666E0ADD79D024339C461EA /* GJMultiMediaBrowserCollectionViewCell.m in Sources */,
+				3443A923D5CED1E720A5CC53F587D571 /* GJMultiMediaBrowserHelper.m in Sources */,
+				759436C4BD5141BAA9B05568D319B5C0 /* GJMultiMediaBrowserNavBarView.m in Sources */,
+				B990271BC61E4466897713BCDBB0A152 /* GJMultiMediaBrowserViewController.m in Sources */,
+				604766A353ED4D80CD9B4C637E979901 /* GJMultiMediaBrowserZoomScrollView.m in Sources */,
+				D617AB1FF2A8C9E72720FF3BC9CEF0B9 /* GJMultiMediaResoucre.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE1E759ECA5C163E52E92FAE8A6357A9 /* Sources */ = {
+		A28C325B7225277BF53D8EF26352764C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0889F77F867A783957507E00A6AFE6 /* YYAnimatedImageView.m in Sources */,
-				499DC88324D2B91740BE47BFB7A63760 /* YYFrameImage.m in Sources */,
-				CD007F6BAFB07CDD8B620EA16A6E8B64 /* YYImage.m in Sources */,
-				EE89A8A4B02742B45DBDAD24A473C3FD /* YYImage-dummy.m in Sources */,
-				8067B2DBD9DB659806B875C61A026A0F /* YYImageCoder.m in Sources */,
-				2CA9058CAEF6E907396A057681EEA208 /* YYSpriteSheetImage.m in Sources */,
+				0F899F97928F4731E4B46782F0C10107 /* YYCache.m in Sources */,
+				BEB9D0051C25A0DFC13E37EFDA976E6B /* YYCache-dummy.m in Sources */,
+				2A2DCD65A943CC8A1A12B1C0AC4D4A7C /* YYDiskCache.m in Sources */,
+				D23A59AB080DA62DB1B723AA884A5DB8 /* YYKVStorage.m in Sources */,
+				DA60572EBF8392EAEEA71F4B57D7B98C /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC039B215680AE3A75C6FAA14836D909 /* Sources */ = {
+		F157330C5CAE5472D82724E60781CDD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D885ECD82AC4BAC8F063BFA0867DA315 /* _YYWebImageSetter.m in Sources */,
-				FE9CA31F01E9BFDCB1EEB68035D85BCE /* CALayer+YYWebImage.m in Sources */,
-				CA4D7985574DEC138CF13DC59406BC32 /* MKAnnotationView+YYWebImage.m in Sources */,
-				C04DC6DE689CC126F8AC0EC47B67186D /* UIButton+YYWebImage.m in Sources */,
-				1FA465B9B7C59625A4EBB4AC92EF6774 /* UIImage+YYWebImage.m in Sources */,
-				F077CD87FC21F1D82C7A1F25D8733584 /* UIImageView+YYWebImage.m in Sources */,
-				62D2A3E87CD39A431E7B2F68A6E8CAA6 /* YYImageCache.m in Sources */,
-				DCFAB33E6C42DEB544A7779387DABB71 /* YYWebImage-dummy.m in Sources */,
-				384EB35B0BF268ECB735F94EAD0BA460 /* YYWebImageManager.m in Sources */,
-				AFBD4D19F3F9FE9237D1C5EF3377CB9E /* YYWebImageOperation.m in Sources */,
+				5F0135A36C2BA6364B28A2CC4BC377A7 /* _YYWebImageSetter.m in Sources */,
+				2C5DAC454738493D59CF79C8947EBA3D /* CALayer+YYWebImage.m in Sources */,
+				494DC6ED5A98D55DB4B56C9DEAABD430 /* MKAnnotationView+YYWebImage.m in Sources */,
+				DE5164973B579F6FB876F650221E92AE /* UIButton+YYWebImage.m in Sources */,
+				8A6619060ECDBDDF529DB559E91FC210 /* UIImage+YYWebImage.m in Sources */,
+				77118B4C51B2899308A2CD40C14184CF /* UIImageView+YYWebImage.m in Sources */,
+				92B2485B33F0C1D3562610C7C5CABBAB /* YYImageCache.m in Sources */,
+				C506D12A83C3AA3076A339A74808D6F6 /* YYWebImage-dummy.m in Sources */,
+				E800177643065966EC3D0AAD8792EA79 /* YYWebImageManager.m in Sources */,
+				6D6D037FE9BDF474ABB560786126C133 /* YYWebImageOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A82D99B6C1057FBEFE81ABB294B2D47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GJMMBrowser;
-			target = CC02568D8E890E3CF534B146F40890E3 /* GJMMBrowser */;
-			targetProxy = 2CFD4B9D2C69D284978645787E160C09 /* PBXContainerItemProxy */;
-		};
-		7153428E3BBB63B2B5CA0197811F3060 /* PBXTargetDependency */ = {
+		23D247860868F07ED05ADFB764ACDB5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYImage;
 			target = 822E44240F2922DAB12018A6B649BD19 /* YYImage */;
-			targetProxy = 5EA8F1D58FAF37127E71AA89FC7A2EE2 /* PBXContainerItemProxy */;
+			targetProxy = 92F8BAAA956CB1A920E890A2272835B0 /* PBXContainerItemProxy */;
 		};
-		94DC94EAC384DC12C89DF410E1ADEB04 /* PBXTargetDependency */ = {
+		2A1B5887E54FED1FDBF3A35266F7C0E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYWebImage;
 			target = 488E8C830C5A5694EE916251B9ADAADA /* YYWebImage */;
-			targetProxy = 3FC62A59283A731A87ED273760A747AC /* PBXContainerItemProxy */;
+			targetProxy = 3BC09F437A9BEEEE1455A413AEF8ED06 /* PBXContainerItemProxy */;
 		};
-		BCE43E70A7BB8A918818C04FBAC094D9 /* PBXTargetDependency */ = {
+		37B7109938ACCC4271414E3A1B221DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = F51D0798A486390999B3F15CB779F1B3 /* PBXContainerItemProxy */;
+		};
+		43F35A947E4CF4EA40101AE51244FF9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GJMMBrowser_Example";
 			target = 00F7C849752B9CC720394EAA6FCF7BBD /* Pods-GJMMBrowser_Example */;
-			targetProxy = 3AFAED33DC989CCAC2C277F6523BB36D /* PBXContainerItemProxy */;
+			targetProxy = 2DBB67EC706D6C9F22DA76DB39012E2F /* PBXContainerItemProxy */;
 		};
-		BEFB9E4C4BF6A4108F8ABA2184553D80 /* PBXTargetDependency */ = {
+		4FA1F697B0B95FE904B15B7F3362102D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = YYImage;
-			target = 822E44240F2922DAB12018A6B649BD19 /* YYImage */;
-			targetProxy = 97827A16B7B39FC049DF12DF243BD6F5 /* PBXContainerItemProxy */;
+			name = GJMMBrowser;
+			target = CC02568D8E890E3CF534B146F40890E3 /* GJMMBrowser */;
+			targetProxy = 164A5279DEA1AB2A37BCFE76D83EE550 /* PBXContainerItemProxy */;
 		};
-		E9684E907C74CCC2D5434974231218CE /* PBXTargetDependency */ = {
+		87E53884C82C5D380E2C54419E8D9F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = FE5EA2D3E671D3644306FDC2A3B5E221 /* PBXContainerItemProxy */;
+		};
+		BA7FF30382622602BE4F33739A4DF0E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GJMMBrowser-GJMMBrowser";
 			target = 64036C4B20DD62D7AAA6A0AA11B8FB47 /* GJMMBrowser-GJMMBrowser */;
-			targetProxy = 8A7C6FC3EB152160606470E3A59ADE16 /* PBXContainerItemProxy */;
+			targetProxy = 7B7416BBBDDA981444C9004E5A02EDB3 /* PBXContainerItemProxy */;
 		};
-		EE20F5A8ABD02BB2E3825BF4D4F37333 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
-			targetProxy = FE1280A213E65875197FA9EE21FB71B5 /* PBXContainerItemProxy */;
-		};
-		F1805891B4B49ABD9258AF0E46D605D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
-			targetProxy = 1EB31E3A91D3543E75DD0CF2AC8017C2 /* PBXContainerItemProxy */;
-		};
-		F55B54815DC72E0BA4579B2398AAA1B5 /* PBXTargetDependency */ = {
+		E040BDFCDC932299518C9377F74542E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYWebImage;
 			target = 488E8C830C5A5694EE916251B9ADAADA /* YYWebImage */;
-			targetProxy = FDA6860384FF6410991E0E8AB27268A4 /* PBXContainerItemProxy */;
+			targetProxy = 058A517318E822A81EBA0ED3C4F69AA8 /* PBXContainerItemProxy */;
+		};
+		E37FAB4A1A14AFD79EF4608AAEAE8D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYImage;
+			target = 822E44240F2922DAB12018A6B649BD19 /* YYImage */;
+			targetProxy = B22F39D2120AD7BF931058A152EF6E93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1678F1467D00AFFB61AB6FCCAFBBD973 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12050AA2BD7A16B2A29CFBC2CE5462E7 /* YYWebImage.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYWebImage/YYWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYWebImage/YYWebImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYWebImage/YYWebImage.modulemap";
-				PRODUCT_MODULE_NAME = YYWebImage;
-				PRODUCT_NAME = YYWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1952D3A0C75B36F6F35FB287F643CBCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67CE0483753230A5C375F0033FE9B8C9 /* Pods-GJMMBrowser_Tests.debug.xcconfig */;
@@ -1229,6 +1162,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1DD4EE84896B622A5BF627BA950A6E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3637C2B3DC5F188F36CE5D9716C20F3 /* GJMMBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
+				IBSC_MODULE = GJMMBrowser;
+				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = GJMMBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		2885FCB4490F8A8BD32225944C639839 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1264,9 +1214,9 @@
 			};
 			name = Release;
 		};
-		4869394A096B141D6FF3682B8D0DDC9A /* Release */ = {
+		52135B4044562CD798371775C402123A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8423F23CC09E7E813595E9B6C54FC416 /* YYImage.release.xcconfig */;
+			baseConfigurationReference = 47C1EE6F4FD3F8440784A114FE05DBFF /* YYImage.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1289,42 +1239,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		5AA8F506E3008741D3F4D0E3921387A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 460CBC237E41400D48E14ED0CAA3B427 /* YYCache.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
-				PRODUCT_MODULE_NAME = YYCache;
-				PRODUCT_NAME = YYCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		5E048ABC6A206851BD79B08FD5236C92 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1360,37 +1278,34 @@
 			};
 			name = Release;
 		};
-		6709BFED0AEE0748F0A299FF84DD145C /* Debug */ = {
+		6F7EE6C877BEAB8D35733609704EC4CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */;
+			baseConfigurationReference = 8423F23CC09E7E813595E9B6C54FC416 /* YYImage.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
-				IBSC_MODULE = GJMMBrowser;
-				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYImage/YYImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYImage/YYImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = GJMMBrowser;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYImage/YYImage.modulemap";
+				PRODUCT_MODULE_NAME = YYImage;
+				PRODUCT_NAME = YYImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6926C57452A4A5596FD6A25B0385CB4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
-				IBSC_MODULE = GJMMBrowser;
-				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = GJMMBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1458,7 +1373,7 @@
 		};
 		942DD0D14CAC78B91E51763FEF86934A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C52322770AA26B0B9E8C991BD8F7C8A /* GJMMBrowser.debug.xcconfig */;
+			baseConfigurationReference = A5C4B454B2685F59865F9DB1D38853F3 /* GJMMBrowser.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1520,9 +1435,9 @@
 			};
 			name = Debug;
 		};
-		A2B2567B7321F1201C9D742FDFAF56FB /* Debug */ = {
+		A05ED4C802E7F66F723976E547A058D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47C1EE6F4FD3F8440784A114FE05DBFF /* YYImage.debug.xcconfig */;
+			baseConfigurationReference = 12050AA2BD7A16B2A29CFBC2CE5462E7 /* YYWebImage.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1532,25 +1447,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYImage/YYImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYImage/YYImage-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYWebImage/YYWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYWebImage/YYWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYImage/YYImage.modulemap";
-				PRODUCT_MODULE_NAME = YYImage;
-				PRODUCT_NAME = YYImage;
+				MODULEMAP_FILE = "Target Support Files/YYWebImage/YYWebImage.modulemap";
+				PRODUCT_MODULE_NAME = YYWebImage;
+				PRODUCT_NAME = YYWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C1368BCAF86CDF89667CAD302AF430DA /* Debug */ = {
+		B9CC7EA8A715704D73B9B09CE8ED79FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E428B28E9807053736DCC4019780ECC3 /* YYCache.debug.xcconfig */;
 			buildSettings = {
@@ -1579,6 +1495,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C334A360D00F3659780C4643C4731AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460CBC237E41400D48E14ED0CAA3B427 /* YYCache.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1646,7 +1593,7 @@
 			};
 			name = Debug;
 		};
-		DAEA81619223295EB592BE59B324D473 /* Debug */ = {
+		E0B4FF1DB8AEC3CF8B468633BBF92BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80768F650DB9EB099BF116AD2BF73A8E /* YYWebImage.debug.xcconfig */;
 			buildSettings = {
@@ -1676,9 +1623,26 @@
 			};
 			name = Debug;
 		};
+		F0C96CDD71C48CF4BD17630D0BC5DE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C4B454B2685F59865F9DB1D38853F3 /* GJMMBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GJMMBrowser";
+				IBSC_MODULE = GJMMBrowser;
+				INFOPLIST_FILE = "Target Support Files/GJMMBrowser/ResourceBundle-GJMMBrowser-GJMMBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = GJMMBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		FAD44BDF532F59DAB366097655D6E9CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106066E96555BFCF30B13C400C547956 /* GJMMBrowser.release.xcconfig */;
+			baseConfigurationReference = F3637C2B3DC5F188F36CE5D9716C20F3 /* GJMMBrowser.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1711,6 +1675,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2739961BA0807F0762489BD99ECD7274 /* Build configuration list for PBXNativeTarget "GJMMBrowser-GJMMBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C96CDD71C48CF4BD17630D0BC5DE76 /* Debug */,
+				1DD4EE84896B622A5BF627BA950A6E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1720,29 +1693,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68C71C0B072BF68EBC1ACF7C3E5D2143 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		7FA7C59FDD59E941CD089A87B1CF203B /* Build configuration list for PBXNativeTarget "YYWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1368BCAF86CDF89667CAD302AF430DA /* Debug */,
-				5AA8F506E3008741D3F4D0E3921387A0 /* Release */,
+				E0B4FF1DB8AEC3CF8B468633BBF92BB6 /* Debug */,
+				A05ED4C802E7F66F723976E547A058D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		773D85314ED4E515038BA667E1D3E6C2 /* Build configuration list for PBXNativeTarget "YYWebImage" */ = {
+		9E1D223D65102C4B3E68179EB846F7BA /* Build configuration list for PBXNativeTarget "YYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAEA81619223295EB592BE59B324D473 /* Debug */,
-				1678F1467D00AFFB61AB6FCCAFBBD973 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98019D9FD781029FD06DF36EA702C43E /* Build configuration list for PBXNativeTarget "YYImage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A2B2567B7321F1201C9D742FDFAF56FB /* Debug */,
-				4869394A096B141D6FF3682B8D0DDC9A /* Release */,
+				B9CC7EA8A715704D73B9B09CE8ED79FC /* Debug */,
+				C334A360D00F3659780C4643C4731AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1765,11 +1729,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3B799A8E09AFF422FDB8B483E1AE9D3 /* Build configuration list for PBXNativeTarget "GJMMBrowser-GJMMBrowser" */ = {
+		EEBC9B1F82E5ECB80C13E2B120F06318 /* Build configuration list for PBXNativeTarget "YYImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6709BFED0AEE0748F0A299FF84DD145C /* Debug */,
-				6926C57452A4A5596FD6A25B0385CB4A /* Release */,
+				52135B4044562CD798371775C402123A /* Debug */,
+				6F7EE6C877BEAB8D35733609704EC4CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

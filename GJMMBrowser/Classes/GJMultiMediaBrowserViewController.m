@@ -214,7 +214,4 @@
 -(NSInteger)currentIndex{
     return self.translator.transitionParameter.browsingImageIndex;
 }
--(void)dealloc{
-    NSLog(@"%s",__func__);
-}
 @end

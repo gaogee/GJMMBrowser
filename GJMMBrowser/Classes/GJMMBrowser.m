@@ -62,7 +62,4 @@
         [self.delegate browserView:browserView didEndDraggingItem:itme index:index];
     }
 }
--(void)dealloc{
-    NSLog(@"%s",__func__);
-}
 @end

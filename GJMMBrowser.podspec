@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GJMMBrowser'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'multimedia browser.'
 
 # This description is used to generate tags and improve search results.
@@ -30,30 +30,14 @@ TODO: Image, video and other resources multimedia browser.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'GJMMBrowser/Classes/*'
+  s.source_files = 'GJMMBrowser/Classes/**/*'
   
    s.resource_bundles = {
      'GJMMBrowser' => ['GJMMBrowser/Assets/MMBrowser/*.png']
    }
-
-   s.subspec 'View' do |ss|
-     ss.source_files = 'GJMMBrowser/Classes/View/*'
-     ss.public_header_files = 'GJMMBrowser/Classes/View/*'
-     end
-   s.subspec 'Translator' do |ss|
-     ss.source_files = 'GJMMBrowser/Classes/Translator/*'
-     ss.public_header_files = 'GJMMBrowser/Classes/Translator/*'
-     end
-   s.subspec 'Helper' do |ss|
-     ss.source_files = 'GJMMBrowser/Classes/Helper/*'
-     ss.public_header_files = 'GJMMBrowser/Classes/Helper/*'
-     end
-   s.subspec 'Protocol' do |ss|
-     ss.source_files = 'GJMMBrowser/Classes/Protocol/*'
-     ss.public_header_files = 'GJMMBrowser/Classes/Protocol/*'
-     end
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'YYWebImage'
+
 end
