@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GJMMBrowser_Example' do
+  pod 'GJMMBrowser', :path => '../'
+
+  target 'GJMMBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
