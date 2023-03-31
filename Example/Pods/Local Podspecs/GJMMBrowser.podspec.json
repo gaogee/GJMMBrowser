@@ -1,0 +1,32 @@
+{
+  "name": "GJMMBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of GJMMBrowser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gaogee/GJMMBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gaogee": "gaoju_os@163.com"
+  },
+  "source": {
+    "git": "https://github.com/gaogee/GJMMBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GJMMBrowser/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "GJMMBrowser": [
+      "GJMMBrowser/Assets/MMBrowser/*.png"
+    ]
+  },
+  "dependencies": {
+    "YYWebImage": [
+
+    ]
+  }
+}

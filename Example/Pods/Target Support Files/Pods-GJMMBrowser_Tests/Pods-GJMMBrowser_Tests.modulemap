@@ -1,0 +1,6 @@
+framework module Pods_GJMMBrowser_Tests {
+  umbrella header "Pods-GJMMBrowser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

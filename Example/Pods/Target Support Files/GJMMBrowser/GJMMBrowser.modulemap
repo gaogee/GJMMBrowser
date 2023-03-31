@@ -1,0 +1,6 @@
+framework module GJMMBrowser {
+  umbrella header "GJMMBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

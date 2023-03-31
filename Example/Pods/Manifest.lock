@@ -1,0 +1,33 @@
+PODS:
+  - GJMMBrowser (0.1.0):
+    - YYWebImage
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - GJMMBrowser (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYCache
+    - YYImage
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  GJMMBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GJMMBrowser: 6cf1f97d77b4e68491fc3cda61edac15175f5a09
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 79404d9adeda3c6f44fb431d2ac92c5b3a0bbbcc
+
+COCOAPODS: 1.12.0
