@@ -149,4 +149,6 @@
  
     return [UIImage animatedImageWithImages:scaledImages duration:self.duration];
 }
+
+
 @end

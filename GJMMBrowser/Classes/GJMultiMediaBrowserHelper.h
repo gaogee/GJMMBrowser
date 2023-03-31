@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GJMultiMediaBrowserHelper : NSObject
 +(UIViewController *)getCurrentViewController;
+
++(UIImage *)getImageFormBundleWithImageName:(NSString *)imageName;
 @end
 
 NS_ASSUME_NONNULL_END

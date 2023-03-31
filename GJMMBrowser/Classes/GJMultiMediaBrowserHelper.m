@@ -34,4 +34,11 @@
     return vc;
 }
 
++(UIImage *)getImageFormBundleWithImageName:(NSString *)imageName{
+    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+    NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
+    NSString *imagePath = [currentBundle pathForResource:imageName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
+    return [UIImage imageWithContentsOfFile:imagePath];
+}
+
 @end

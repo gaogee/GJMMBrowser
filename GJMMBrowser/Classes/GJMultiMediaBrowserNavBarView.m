@@ -7,6 +7,7 @@
 //
 
 #import "GJMultiMediaBrowserNavBarView.h"
+#import "GJMultiMediaBrowserHelper.h"
 @interface GJMultiMediaBrowserNavBarView ()
 @property (nonatomic, strong) UIButton *backBtn;
 @property (nonatomic, strong) UILabel *titleLb;
@@ -25,7 +26,7 @@
 -(UIButton *)backBtn{
     if (!_backBtn){
         _backBtn = [[UIButton alloc]init];
-        UIImage *image = [UIImage imageNamed:@"gj_transition_back"];
+        UIImage *image =  [GJMultiMediaBrowserHelper getImageFormBundleWithImageName:@"gj_transition_back.png"];
         [_backBtn setImage:image forState:0];
         _backBtn.frame = CGRectMake(15, self.frame.size.height-image.size.height-15, image.size.width, image.size.height);
         [_backBtn addTarget:self action:@selector(backSelector) forControlEvents:UIControlEventTouchUpInside];

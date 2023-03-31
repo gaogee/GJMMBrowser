@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIImage *)gj_animatedGIFWithData:(NSData *)data;
 
 - (UIImage *)gj_animatedImageByScalingAndCroppingToSize:(CGSize)size;
+
 @end
 
 NS_ASSUME_NONNULL_END

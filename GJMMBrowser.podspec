@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GJMMBrowser'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'multimedia browser.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Image, video and other resources multimedia browser.
   s.source_files = 'GJMMBrowser/Classes/**/*'
   
    s.resource_bundles = {
-     'GJMMBrowser' => ['GJMMBrowser/Assets/MMBrowser/*.png']
+       'GJMMBrowser' => ['GJMMBrowser/Assets/*.png']
    }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -94,7 +94,7 @@
 }
 -(UIImage *)placeholderImage{
     if (!_placeholderImage){
-        _placeholderImage = [UIImage imageNamed:@"gj_transition_default_graph"];
+        _placeholderImage = [GJMultiMediaBrowserHelper getImageFormBundleWithImageName:@"gj_transition_default_graph.png"];
     }
     return _placeholderImage;
 }
